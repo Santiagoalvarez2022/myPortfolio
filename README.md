@@ -1,2 +1,2 @@
 # myPortfolio
-This is my web portfolio . i hope you like it 
+This is my web portfolio. I hope you like it 
