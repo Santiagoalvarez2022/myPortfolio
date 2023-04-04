@@ -38,21 +38,22 @@ return(
       </main>
     </div>
 
-    <div className={style.About_me}>
+    <div  ref={refpage1} className={style.About_me}>
 
       <div className={style.box}> 
 
-
+        
         <div className={style.container_img}> 
-          <img className={style.img} src={fotodeperfil} alt="fotoDePresentacion" />
+          <img className={ state ?  style.img :style.img_hidden} src={fotodeperfil} alt="fotoDePresentacion" />
         </div>
 
         <div className={style.container_text}> 
-          <div className={style.text}>
-            <h2>hi!, I'm Santiago Alvarez </h2>
-              <div className={style.paragraph}>
+          <div className={state?   style.text : style.text_hidden }>
 
-              <p className={style.paragraph_p}> { `Soy de Buenos Aires, Argentina y tengo 21 años.
+            <h2 className={state?   style.text_h2 : style.text_h2_hidden }>hi!, I'm Santiago Alvarez </h2>
+            <div className={style.paragraph}>
+
+              <p className={state ? style.paragraph_p : style.paragraph_p_hidden}> { `Soy de Buenos Aires, Argentina y tengo 21 años.
               Desde pequeño me apasiona el mundo Tech, crear cosas y es por eso que decidi dedicarme al desarrollo Web.
               `} </p>
 
@@ -61,10 +62,17 @@ return(
           <div className={style.contactMe}>
             <h3>Contact me:</h3>
             <div className={style.container_icons}>
-              
-              <FontAwesomeIcon className={style.icon} icon={faLinkedin} />
-              <FontAwesomeIcon className={style.icon} icon={faGithub} />
-              <FontAwesomeIcon className={style.icon} icon={faEnvelope} />
+              <a href="https://www.linkedin.com/in/santiagoalvarezwebdeveloper/" target="_blanck">
+                <FontAwesomeIcon className={style.icon} icon={faLinkedin} />
+              </a>
+              <a href="https://github.com/Santiagoalvarez2022" target="_blanck">
+                <FontAwesomeIcon className={style.icon} icon={faGithub} />
+              </a>
+              <a href="mailto:santiagoalvarez.job2023@gmail.com" target="_blanck">
+                <FontAwesomeIcon className={style.icon} icon={faEnvelope} />
+              </a>
+  
+
            
             </div>
 
