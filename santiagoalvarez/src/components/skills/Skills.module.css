@@ -1,0 +1,39 @@
+.logo{
+    width: 100px;
+}
+
+.all{
+  
+    flex-direction: column;
+    padding-inline:4rem ;
+}
+
+.all > h2{
+    
+    padding: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+.container_logos{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    width: 500px;
+    height: 500px;
+
+    gap: .5rem;
+}
+
+
+
+.container_logos > div{
+    padding: 1rem;
+    text-align: center;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,
+               -15px -10px 20px #ffffff;
+}
+
+.container_logos > div:hover{
+    scale: 1.2;
+}
