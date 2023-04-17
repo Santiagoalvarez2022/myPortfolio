@@ -13,18 +13,13 @@ const Projects = () =>{
             </div>
             <div className={style.boxTwo}>
                 <div className={style.boxTwo_space}>
-
-                        <ReactPlayer url={videoeEmprendar} controls loop/>
+                    <ReactPlayer url={videoeEmprendar} controls loop/>
                 </div>
                 <div className={style.container_projects}>
-
+                    <div className={style.card}>
+                    </div>                   
                     <div className={style.card}>
                     </div>
-                        
-                    <div className={style.card}>
-
-                    </div>
-
                 </div>
                 <div className={style.nav}>
                     <div>
