@@ -18,48 +18,66 @@ import style from "./Skills.module.css"
 const Skills = () =>{
     return(
         <div className={style.all}>
-            <h2>Habilidades</h2>
-            <div className={style.container_logos}>
-                <div> 
-                    <img src={logo_html} className={style.logo} />
-                    <p>HTML</p>
-                </div>
-                <div> 
-                    <img src={logoCss}  className={style.logo}  />
-                        <p>CSS</p>
-                </div>
-                <div> 
-                    <img src={logo_js} className={style.logo} />
-                        <p>JavaScript</p>
-                </div>
-                <div> 
-                    <img src={logo_node}  className={style.logo} />
-                        <p>Node JS</p>
-                </div>
-                <div> 
-                    <img src={logo_seqelize}  className={style.logo} />
-                        <p>Sequelize</p>
-                </div>
-                <div> 
-                    <img src={logo_postgress}  className={style.logo} />
-                        <p>PostgreSQL</p>
-                </div>
-                <div> 
-                    <img src={logo_react} className={style.logo} />
-                        <p>React</p>
-                </div>
-                <div> 
-                    <img src={logo_redux} className={style.logo}  />
-                        <p>Redux</p>
-                </div>
-                <div> 
-                    <img src={logo_git} className={style.logo}  />
-                        <p>Git</p>
-                </div>
+            <div className={style.boxOne}>
+                <div></div>
+                <h1>SKILLS</h1>
             </div>
+            <div className={style.boxTwo}>
+                <div className={style.boxTwo_space}>
+
+                </div>
+                <div className={style.container_logos}>
+
+                    <div className={style.divs}>
+                        <div> 
+                            <img src={logo_html} className={style.logo} />
+                        </div>
+                        <div> 
+                            <img src={logoCss}  className={style.logo}  />
+                        </div>
+                        <div> 
+                            <img src={logo_js} className={style.logo} />
+                        </div>
+                    
+                    </div>
+                    <div className={style.divs}>
+                        <div> 
+                            <img src={logo_node}  className={style.logo} />
+                        </div> 
+                        <div> 
+                            <img src={logo_seqelize}  className={style.logo} />
+                        </div>
+                        <div> 
+                            <img src={logo_postgress}  className={style.logo} />
+                        </div>
+                    </div>
+                    <div className={style.divs}>
+                        <div> 
+                            <img src={logo_react} className={style.logo} />
+                        </div>
+                        <div> 
+                            <img src={logo_redux} className={style.logo}  />
+                        </div>
+                        <div> 
+                            <img src={logo_git} className={style.logo}  />
+                        </div>
+                    </div>               
+                </div>
+                <div className={style.nav}>
+                    <div>
+                        <div><h3>ABOUT ME</h3> </div>
+                        <div><h3>SKILLS</h3> </div>
+                        <div><h3>PROJECTS</h3> </div>
+                        <div><h3>CONTAC ME</h3> </div>
+                    </div>
+                    
+                </div>  
+            </div>
+            <div className={style.boxThree}>
+                
+            </div>
+
         </div>
-         
-        
     )
 }
 export default Skills;
