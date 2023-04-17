@@ -79,8 +79,8 @@ export default function Presentation(){
           <div className={style.container_nav}>
             <div className={style.nav}>
               <div><h3>ABOUT ME</h3> </div>
-              <div><h3>PROJECTS</h3> </div>
               <div><h3>SKILLS</h3> </div>
+              <div><h3>PROJECTS</h3> </div>
               <div><h3>CONTAC ME</h3> </div>
             </div>
           </div>

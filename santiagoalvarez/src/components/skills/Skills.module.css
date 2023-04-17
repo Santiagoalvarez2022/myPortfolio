@@ -1,39 +1,120 @@
-.logo{
-    width: 100px;
-}
 
 .all{
-  
+    height:fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
     flex-direction: column;
-    padding-inline:4rem ;
+}   
+
+.boxOne{
+    height: 23vh;
+    width: 100%;
+    display: flex;
+    align-items:end;
+}
+.boxThree{
+    height: 7vh;
+    background: #000;
+
+}
+.boxOne > div{
+    width: 25%;
 }
 
-.all > h2{
-    
-    padding: 1rem;
-    padding-bottom: 1.5rem;
+.boxOne > h1{
+    padding-bottom: 0; 
+    margin-bottom: 0;
+    display: flex;
+    align-items:center;
+    font-size: 5rem;
+    margin-bottom: 0;
+    color: #ffffff;
+    font-family: "Oswall", sans-serif;
+    font-weight: bold;
+    filter: drop-shadow(3px 3px 7px black);
 }
+
+.boxTwo{
+    width: 100%;
+    display: flex;
+}
+
+.boxTwo_space{
+    width: 25%;
+}
+
+.nav{
+    width: 25%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.nav > div{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.nav h3{
+    font-size: 2rem;
+    margin-bottom: 0;
+    color: #ffffff98;
+    font-family: "Oswall", sans-serif;
+    font-weight: bold;
+    filter: drop-shadow(.7rem .7rem 10px black);
+    cursor: pointer;
+}
+
+.nav h3:hover {
+    scale: 1.2;
+    color:#ffffff;
+} 
+
 
 .container_logos{
-    display: grid;
-    grid-template-columns:repeat(3, 1fr);
-    width: 500px;
-    height: 500px;
+    width:50% ;
+
+    display: flex;
+    align-items:center;
+    justify-content: center;
 
     gap: .5rem;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    height: 70vh;
+ 
+}
+ 
+
+
+.divs{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;  
+    height: 55vh;
+
 }
 
 
-
-.container_logos > div{
-    padding: 1rem;
+.divs>div{
     text-align: center;
     border-radius: 30px;
     background: #e0e0e0;
-    box-shadow: 15px 15px 30px #bebebe,
-               -15px -10px 20px #ffffff;
+    width: fit-content;
+    height: 33%;
+    width: 100%;
+    cursor: pointer;
+    border: 3px solid green;
+    padding: 1rem;
 }
 
-.container_logos > div:hover{
+.divs > div:hover{
     scale: 1.2;
+}
+
+.logo {
+    height: 100%;
 }
