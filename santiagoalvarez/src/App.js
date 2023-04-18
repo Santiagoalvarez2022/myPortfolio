@@ -1,3 +1,4 @@
+import { useState } from "react"
 import style from "./App.module.css"
 import AboutMe from "./components/AboutMe/AboutMe"
 import Animations from "./components/Animations"
@@ -9,13 +10,19 @@ function App() {
   
   //desetructuro como quiera  
   const [refpage1, state] = Animations()
+  
+  
+
 
 return(
   <div className={style.app}>
+
     <Presentation />
     <AboutMe />
     <Skills />
     <Projects />
+  
+
   </div>)
 }
 

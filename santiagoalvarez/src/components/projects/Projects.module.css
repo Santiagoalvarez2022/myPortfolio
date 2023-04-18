@@ -40,12 +40,11 @@
     width: 100%;
     display: flex;
     height: 70vh;
-
+    
 }
 
 .boxTwo_space{
     width: 25%;
-
 }
 
 .container_projects{
@@ -54,14 +53,12 @@
     justify-content: center;
     align-items:center;
     gap: 1rem ; 
-    border:green solid 2px
 }
 
 
-
 .card {
-    width: 40%;
-    height: 80%;
+    width: 45%;
+    height: 90%;
     transition: .5s;
     background: #07182E;
     position: relative;
@@ -71,15 +68,53 @@
     overflow: hidden;
     border-radius: 20px;
     cursor: pointer;
-  }
-  
-  .card h2 {
+    flex-direction: column;
+    outline: none;
+}
+a:link { text-decoration:none; } a:visited { text-decoration:none; }
+
+.card_presentation{
     z-index: 1;
-    color: white;
-    font-size: 2em;
-  }
-  
-  .card::before {
+    height: 85%;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    flex-direction: column  ;
+}
+
+.logo{
+    z-index: 1;
+    background: #ffffffd8;
+    display: flex;
+    justify-content: center;
+    height: 15%;
+}
+
+.logo2{
+    z-index: 1;
+    background: #23282F;
+    display: flex;
+    justify-content: center;
+    height: 15%;
+}
+ 
+.logo > img{
+    width: 60%; 
+}
+
+.video{
+    z-index: 1;
+    height: 50%;  
+}
+.data_project{
+    color:#ffffff98;
+    text-align: center;
+    height: 50%;
+    width: 90%;
+    font-weight: bold;
+    
+}
+.card::before {
     content: '';
     position: absolute;
     width: 100px;
@@ -87,9 +122,14 @@
     height: 130%;
     animation: rotBGimg 3s linear infinite;
     transition: all 0.2s linear;
-  }
-  
-  @keyframes rotBGimg {
+}
+
+
+
+
+
+
+@keyframes rotBGimg {
     from {
       transform: rotate(0deg);
     }
@@ -97,7 +137,7 @@
     to {
       transform: rotate(360deg);
     }
-  }
+}
   
   .card::after {
     content: '';
@@ -124,9 +164,8 @@
 
 .card:hover::after{
     transition: 1s; 
-
     background-image: linear-gradient(180deg, rgb(0, 183, 255), rgb(255, 48, 255));
-
+    
 }
 
 
@@ -163,5 +202,14 @@
     color:#ffffff;
     transform: translateZ(10px) rotateX(20deg) rotateY(-20deg);
 } 
-.card:hover {
-  }
+
+/* .info_emprendar {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
+}
+
+.logo{
+    width: 50px;
+} */
