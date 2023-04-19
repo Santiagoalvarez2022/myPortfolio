@@ -2,21 +2,22 @@
 .all{
     height:fit-content;
     width: 100%;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items:center;
     flex-direction: column;
+    border-bottom-right-radius: 50%;
 }   
 
 .boxOne{
-    height: 23vh;
+    height: 13vh;
     width: 100%;
     display: flex;
     align-items:end;
 }
 .boxThree{
     height: 7vh;
-    background: #000;
 
 }
 .boxOne > div{
@@ -28,7 +29,7 @@
     margin-bottom: 0;
     display: flex;
     align-items:center;
-    font-size: 5rem;
+    font-size: 400%;
     margin-bottom: 0;
     color: #ffffff;
     font-family: "Oswall", sans-serif;
@@ -60,7 +61,7 @@
     width: 45%;
     height: 90%;
     transition: .5s;
-    background: #07182E;
+    background: #030a13;
     position: relative;
     display: flex;
     place-content: center;
@@ -77,7 +78,7 @@ a:link { text-decoration:none; } a:visited { text-decoration:none; }
     z-index: 1;
     height: 85%;
     width: 100%; 
-    display: flex;
+    display: flex; 
     align-items: center;
     flex-direction: column  ;
 }
@@ -142,7 +143,8 @@ a:link { text-decoration:none; } a:visited { text-decoration:none; }
   .card::after {
     content: '';
     position: absolute;
-    background: #07182E;
+    background: #030a13;
+    
 
     inset: 5px;
     border-radius: 15px;
@@ -170,46 +172,3 @@ a:link { text-decoration:none; } a:visited { text-decoration:none; }
 
 
 
-
-.nav{
-    width: 25%;
-    display: flex;
-    align-items:center;
-    justify-content: center;
-}
-
-.nav > div{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-
-}
-
-.nav h3{
-    text-align: center;
-    font-size: 2rem;
-    margin-bottom: 0;
-    color: #ffffff98;
-    font-family: "Oswall", sans-serif;
-    font-weight: bold;
-    filter: drop-shadow(.7rem .7rem 10px black);
-    cursor: pointer;
-}
-
-.nav h3:hover {
-    transition: .2s;
-    scale: 1.2; 
-    color:#ffffff;
-    transform: translateZ(10px) rotateX(20deg) rotateY(-20deg);
-} 
-
-/* .info_emprendar {
-    width: 100%;
-    height: 100%;
-    display: grid;
-    grid-template-columns: repeat(2,1fr); 
-}
-
-.logo{
-    width: 50px;
-} */

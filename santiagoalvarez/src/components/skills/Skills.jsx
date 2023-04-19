@@ -20,8 +20,9 @@ const Skills = () =>{
         <div className={style.all}>
             <div className={style.boxOne}>
                 <div></div>
-                <h1>SKILLS</h1>
+                <h1>Skills</h1>
             </div>
+
             <div className={style.boxTwo}>
                 <div className={style.boxTwo_space}>
 
@@ -63,15 +64,9 @@ const Skills = () =>{
                         </div>
                     </div>               
                 </div>
-                <div className={style.nav}>
-                    <div>
-                        <div><h3>ABOUT ME</h3> </div>
-                        <div><h3>SKILLS</h3> </div>
-                        <div><h3>PROJECTS</h3> </div>
-                        <div><h3>CONTAC ME</h3> </div>
-                    </div>
-                    
-                </div>  
+                <div className={style.boxTwo_space}>
+
+                </div>
             </div>
             <div className={style.boxThree}>
                 

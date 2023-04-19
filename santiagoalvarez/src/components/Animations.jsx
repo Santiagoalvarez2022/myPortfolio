@@ -16,7 +16,7 @@ const Animations  = () =>{
         })
       }
       ,
-      {threshold : 0.2}
+      {threshold : 1.0}
       )
     
       if (element) {

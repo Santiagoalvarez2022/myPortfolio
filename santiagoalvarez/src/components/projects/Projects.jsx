@@ -2,6 +2,8 @@ import React from "react"
 import ReactPlayer from "react-player"
 import style from "./Projects.module.css"
 import videoeEmprendar from "../../assets/video/emprendar.mp4"
+import videoeFirulais from "../../assets/video/firulais.mp4"
+
 import { faL } from "@fortawesome/free-solid-svg-icons"
 import socketIo from "../../assets/socketIo.png"
 import nextJs from "../../assets/next js.png"
@@ -39,6 +41,7 @@ const Projects = () =>{
                 <div></div>
                 <h1>Projects</h1>
             </div>
+
             <div className={style.boxTwo}>
                 <div className={style.boxTwo_space}>
                     <div className={style.info_emprendar} >
@@ -49,7 +52,7 @@ const Projects = () =>{
                 <div className={style.container_projects}>
 
                    
-                        <a href="https://emprendar-front.vercel.app/" className={style.card}>
+                        <a href="https://emprendar-front.vercel.app/" className={style.card} target="_blank">
                             <div className={style.logo}>
                                 <img src={emprendar} alt=""  />
                             </div>
@@ -65,14 +68,14 @@ const Projects = () =>{
                         </a>
                   
 
-                    <a href="https://pi-dogs-main-pink-nine.vercel.app/" className={style.card} >
+                    <a href="https://firulais-1y8jbdr7w-santiagoalvarez2022.vercel.app" className={style.card}  target="_blank">
                         
                         <div className={style.logo2}>
                             <img src={firulaisapp} alt=""  />
                         </div>
                         <div className={style.card_presentation}>
                             <img src="" alt="" />
-                            <ReactPlayer playbackRate width="90%" style={divStyle} height="50%" className={style.video} url={videoeEmprendar} playing={true} controls loop/> 
+                            <ReactPlayer playbackRate width="90%" style={divStyle} height="50%" className={style.video} url={videoeFirulais} playing={true} controls loop/> 
                             <div className={style.data_project}>
                                 <p>FirulaisApp es unaSPA "Single Page Application" .La SPA consume datos de una base de datos PostgreSQL a través de un Back End desarrollado en NodeJS utilizando Express y que tambien esta conectada con una api externa.
                                 Desarrolle tando el frontend como el backend de la pagina. 
@@ -84,20 +87,13 @@ const Projects = () =>{
 
 
                 </div>
-                <div className={style.nav}>
-                    <div>
-                        <div><h3>ABOUT ME</h3> </div>
-                        <div><h3>SKILLS</h3> </div>
-                        <div><h3>PROJECTS</h3> </div>
-                        <div><h3>CONTAC ME</h3> </div>
-                    </div>
+                <div className={style.boxTwo_space}>
+              
                     
                 </div>  
             </div>
-            <div className={style.boxThree}>
-                
+            <div className={style.boxThree}>              
             </div>
-
     </div>
     )
 }
