@@ -17,7 +17,6 @@
 }
 .boxThree{
     height: 7vh;
-    background: #000;
 }
 .boxTwo{
     width: 100%;
@@ -25,16 +24,20 @@
     height: 70vh;
 }
 
-.boxOne > div{
+.space{
     width: 25%;
 }
 
-.boxOne > h1{
+.title_container{
+    width: 75%;
+}
+
+.title{
     padding-bottom: 0; 
     margin-bottom: 0;
     display: flex;
     align-items:center;
-    font-size: 400%;
+    font-size: 7vh;
     margin-bottom: 0;
     color: #ffffff;
     font-family: "Oswall", sans-serif;
@@ -42,7 +45,13 @@
     filter: drop-shadow(3px 3px 7px black);
 }
 
-
+.description{
+    color: #ffc402;
+    padding-inline-start: 2rem;
+    font-size: 6;
+    padding-bottom: 0; 
+    margin-bottom: 0;
+}
 
 .boxTwo_space{
     width: 25%;
@@ -70,7 +79,7 @@
     display: flex;
     flex-direction: column;
     gap: .5rem;  
-    height: 55vh;
+    height: 65vh;
 
 }
 
@@ -78,19 +87,33 @@
 .divs>div{
     text-align: center;
     border-radius: 30px;
-    background: #e0e0e0;
     width: fit-content;
-    height: 33%;
+    height: 21vh;
     width: 100%;
     cursor: pointer;
-    border: 3px solid green;
     padding: 1rem;
+    background: #030a13;
+    
 }
+
+
 
 .divs > div:hover{
     scale: 1.2;
+    background: #23282F;
+
 }
 
 .logo {
-    height: 100%;
+    width: 100%;
+    height: 15vh;
 }
+
+.name{
+    height: 3vh;
+    color:#ffffff98;
+
+}
+
+
+

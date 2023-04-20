@@ -1,0 +1,37 @@
+{
+    "presentation":{
+       "greeting":"Hola!, Soy",
+        "presentation":"Un apasionado por el desarrollo web y el mundo IT! La creatividad y el compromiso son para mí la clave del éxito.",
+        "download":"DESCARGAR CV"
+    },
+
+    "aboutMe":{
+        "title":"Sobre mi",
+        "phrase":"La inspiración existe, pero tiene que encontrarte trabajando",
+        "text":"Desde pequeño me ha gustado armar y desarmar mecanismos, el arte y aprender sobre los avances en la tecnología y la ciencia. En el desarrollo web encontré la oportunidad de poder hacer todas estas cosas que me gustan.",
+        "text2":"Tengo experiencia trabajando con Javascript, React, Next.js, Redux, HTML, CSS, Node.js, Express, Sequelize, PostgreSQL, git."
+    },
+    
+    "skills":{
+        "title": "Habilidades", 
+        "subtitle":"Estas son las tecnologías con las que he trabajado"
+    },
+
+    "projects":{
+        "title": "Proyectos",
+        "subtitle":"Algunos de mis trabajos recientes",
+        "detail_app_emprendar":"Emprendar es una plataforma de  Crodfunding destinada a potenciar el avance de proyectos o emprendimientos de la comunidad por medio de donaciones de dinero. Principalmente mis tareas se centraron en la creacion de un chat online y en el frontend de la app.",
+        "detail_app_firulais":"FirulaisApp es unaSPA (Single Page Application).La SPA consume datos de una base de datos PostgreSQL a través de un Back End desarrollado en NodeJS utilizando Express y que tambien esta conectada con una api externa.Desarrolle tando el frontend como el backend de la pagina."
+    }, 
+
+    "contact":{
+        "age":"Tengo 21 años",
+        "address":" Vivo en Buenos Aires, Argentina.",
+        "question": "¿Quieres saber más sobre mí?, ¿te interesaría trabajar juntos?",
+        "response":"No lo dudes y ponte en contacto conmigo!"
+    },
+
+    "footer":{
+        "text":"Gracias por haber visitado mi pagina! :)"
+    }
+}

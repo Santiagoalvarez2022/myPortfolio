@@ -32,3 +32,21 @@
     font-size: 30px;
     max-height: fit-content;
 }
+
+.translater{
+    display: flex;
+    height: 100%;
+    border: 2px solid #e6e8e9;
+    margin-right: 2rem;
+}
+.translater > p{
+    padding-inline: .2rem;
+    margin-bottom: 0;
+    color: #e6e8e9;
+    cursor: pointer;
+}
+
+.translater > p:hover{
+    background: #e6e8e9;
+    color:#030a13;
+}

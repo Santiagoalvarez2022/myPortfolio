@@ -4,25 +4,14 @@ import style from "./Projects.module.css"
 import videoeEmprendar from "../../assets/video/emprendar.mp4"
 import videoeFirulais from "../../assets/video/firulais.mp4"
 
-import { faL } from "@fortawesome/free-solid-svg-icons"
-import socketIo from "../../assets/socketIo.png"
-import nextJs from "../../assets/next js.png"
-import logoCss from "../../assets/css.png"
-import logo_html from  "../../assets/html.png"
-import logo_js from "../../assets/javascript.png"
-
-import logo_node from "../../assets/node.png"
-import logo_postgress from "../../assets/postgres.png"
-import logo_seqelize from "../../assets/sequelize.png"
-
-import logo_react from"../../assets/react.png"
-import logo_redux from "../../assets/redux.png"
-import logo_git from "../../assets/git.png"
-
 import emprendar from "../../assets/enprendar.png"
 import firulaisapp from "../../assets/firulaisapp.png"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faCircleArrowRight } from "@fortawesome/free-solid-svg-icons";
+import {  useTranslation } from "react-i18next"
 
-import {Link} from "react-router-dom"
+
 
 const Projects = () =>{
 
@@ -34,12 +23,17 @@ const Projects = () =>{
 
     };
 
+    const [t, i18n] = useTranslation('global')
 
     return(
         <div className={style.all}>
-            <div className={style.boxOne}>
-                <div></div>
-                <h1>Projects</h1>
+           <div className={style.boxOne}>
+                <div className={style.space}></div>
+                <div className={style.title_container} >
+                    <h1 className={style.title}>{t("projects.title")}</h1>
+                    <h3 className={style.description}>// {t("projects.subtitle")}</h3>
+
+                </div>
             </div>
 
             <div className={style.boxTwo}>
@@ -56,14 +50,20 @@ const Projects = () =>{
                             <div className={style.logo}>
                                 <img src={emprendar} alt=""  />
                             </div>
+
                             <div className={style.card_presentation}>
-                                <img src="" alt="" />
-                                <ReactPlayer playbackRate width="90%" style={divStyle} height="50%" className={style.video} url={videoeEmprendar} playing={true} controls loop/> 
+                                <ReactPlayer playbackRate width="90%" style={divStyle} height="20vh" className={style.video} url={videoeEmprendar} playing={true} controls loop/> 
+
                                 <div className={style.data_project}>
-                                    <p>Emprendar es una plataforma de  Crodfunding destinada a potenciar el avance de proyectos o emprendimientos de la comunidad por medio de donaciones de dinero. Principalmente mis tareas se centraron en la creacion de un chat online y en el frontend de la app
-                                        
-                                    </p>
+                                    <p>{t("projects.detail_app_emprendar")}</p>
                                 </div>
+ 
+                                <div  className={style.enlaces}> 
+                                    <a  title="Ver repositorio" href="https://github.com/Santiagoalvarez2022/Emprendar_Front" target="_blanck">
+                                        <FontAwesomeIcon className={style.icon_a}   icon={faGithub}/>
+                                    </a> 
+                                </div>
+
                             </div>
                         </a>
                   
@@ -75,21 +75,30 @@ const Projects = () =>{
                         </div>
                         <div className={style.card_presentation}>
                             <img src="" alt="" />
-                            <ReactPlayer playbackRate width="90%" style={divStyle} height="50%" className={style.video} url={videoeFirulais} playing={true} controls loop/> 
+                            <ReactPlayer playbackRate width="90%" height="20vh" style={divStyle}  className={style.video2} url={videoeFirulais} playing={true} controls loop/> 
                             <div className={style.data_project}>
-                                <p>FirulaisApp es unaSPA "Single Page Application" .La SPA consume datos de una base de datos PostgreSQL a través de un Back End desarrollado en NodeJS utilizando Express y que tambien esta conectada con una api externa.
-                                Desarrolle tando el frontend como el backend de la pagina. 
-                                </p>
+                                <p>{t("projects.detail_app_firulais")}</p>
                             </div>
+                            <div  className={style.enlaces}> 
+                                    <a title="Ver repositorio"  href="https://github.com/Santiagoalvarez2022/FirulaisApp" target="_blanck">
+                                        <FontAwesomeIcon className={style.icon_a}   icon={faGithub}/>
+                                    </a> 
+                                </div>
                         </div>
                     </a>
 
 
 
                 </div>
-                <div className={style.boxTwo_space}>
-              
-                    
+                <div className={style.container_button}>
+                    <a href="https://github.com/Santiagoalvarez2022" target="_blanck">  
+                        <div className={style.uiverse}>
+                            <span className={style.tooltip}>github</span>
+                            <span>
+                                <FontAwesomeIcon className={style.icon_a}   icon={faCircleArrowRight}/> 
+                            </span>
+                        </div>
+                    </a>
                 </div>  
             </div>
             <div className={style.boxThree}>              

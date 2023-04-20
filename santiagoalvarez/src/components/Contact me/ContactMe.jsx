@@ -4,9 +4,12 @@ import img from "../../assets/fotodeperfil.jpeg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope,faLocationDot,faPhone } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin, faInstagram,faFacebook,faTwitter} from "@fortawesome/free-brands-svg-icons"; 
+import {  useTranslation } from "react-i18next"
 
 export default function ContactMe() {
-  return (
+    const [t, i18n] = useTranslation('global')
+
+    return (
     <div className={style.all}>
             <div className={style.boxOne}>
                 <div></div>
@@ -27,8 +30,8 @@ export default function ContactMe() {
                         <div className={style.information}>
                             <div className={style.information_text}>
                                 <h3>Santiago Alvarez</h3>
-                                <h4>21 years old</h4>
-                                <h4><FontAwesomeIcon icon={faLocationDot} bounce style={{color: "#c3c6cb",}} />  I live in Buenos Aires, Argentina</h4>
+                                <h4>{t("contact.age")}</h4>
+                                <h4><FontAwesomeIcon icon={faLocationDot} bounce style={{color: "#c3c6cb",}} />{t("contact.address")}</h4>
                             </div>
                             <div className={style.information_medias}>
                                 
@@ -58,7 +61,7 @@ export default function ContactMe() {
                     </div>
                     <div className={style.contact} >
                         <div className={style.question}>
-                            <p>Do you want to know more about me? Don't hesitate and contact me!</p>
+                            <p>{t("contact.question")} <br /> {t("contact.response")}</p>
                         </div>
 
 

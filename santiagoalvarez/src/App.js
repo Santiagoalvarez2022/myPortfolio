@@ -11,18 +11,16 @@ import Footer from "./components/Footer/Footer"
 import Favicon from "react-favicon"
 import favicon from "./assets/faviconSA.png" 
 
+
 function App() {
    
   //desetructuro como quiera  
   const [refNav, navState] = Animations()
-  //hacer funcion que observa a about y no importa si despues sale de foco igual tiene que quedar con el cambio
-  
-  //que solo cuadno este presentacion en pantalla este transparente
+
 
 return(
   <div className={style.app}>
       <Favicon url={favicon}></Favicon>
-
       <header className={ navState ? style : style.nav} >
         <a  href="#presentation" className={ navState ?  style.logo_hidden :style.logo  }>Santiago Alvarez</a>
         <Nav />

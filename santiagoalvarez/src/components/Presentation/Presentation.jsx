@@ -4,9 +4,14 @@ import { faGithub, faLinkedin, } from "@fortawesome/free-brands-svg-icons";
 import style from "./Presentation.module.css"
 import cv from "../../assets/Santiago Alvarez.pdf"
 import Nav from '../Nav/Nav';
-
+import {  useTranslation } from "react-i18next"
    
 export default function Presentation(){
+  const [t] = useTranslation('global')
+
+  
+
+
     return(
         <div className={style.app}>
 
@@ -19,14 +24,15 @@ export default function Presentation(){
     
         <div className={style.boxTwo} >
 
-          <div className={style.presentation}>
-              <div className={style.section_a} ></div>
+          <div className={style.presentation}> 
+              <div className={style.section_a} >
+              </div>
     
               <div className={style.section_b} >
                 <div className={style.name} >
     
                   <div className={style.name_a}>
-                    <p>Hi! I´m</p>
+                    <p>{t("presentation.greeting")}</p>
                   </div> 
                   <div className={style.name_b}>
                     <h1>SANTIAGO ALVAREZ</h1>
@@ -35,14 +41,14 @@ export default function Presentation(){
                 
                 <div className={style.info} >
                   <h3>Full Stack Web Developer</h3>
-                  <p>Hola bienvenidos a mi portfolio! espero les guste, desde ppequeño me facina el mundo It y los avances cientificos, creo que la imagiginacion y la invecion son el combustible de un mundo mejor.</p>
+                  <p>{t("presentation.presentation")}</p>
                 </div>
               </div>
     
               <div className={style.section_c} >
                   <a href={cv} target="_blank" rel="noopener noreferrer" download="Santiago Alvarez.pdf"> 
                     <div className={style.btn} >
-                      DESCARGAR CV
+                    {t("presentation.download")}
                     </div>
                   </a>
               </div>
@@ -83,7 +89,6 @@ export default function Presentation(){
           </div>
     
           <div className={style.container_nav}>
-            {/* <Nav />  */}
           </div>
     
           <div className={style.marco_drc}>

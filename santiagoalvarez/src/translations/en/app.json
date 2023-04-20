@@ -1,0 +1,38 @@
+{
+    "presentation":{
+       "greeting":"Hi!, I´m",
+        "presentation":"Passionate about web development and the IT world! Creativity and commitment are the key to success for me.",
+        "download":"DOWNLOAD CV"
+    },
+
+    "aboutMe":{
+        "title":"About me",
+        "phrase": "Inspiration exists, but it has to find you working",
+        "text":"Since I was a child, I have enjoyed assembling and disassembling mechanisms, art, and learning about advances in technology and science. In web development, I found the opportunity to do all of these things that I love.",
+        "text2":"I have experience working with Javascript, React, Next.js, Redux, HTML, CSS, Node.js, Express, Sequelize, PostgreSQL, git."
+    },
+    
+    "skills":{
+        "title": "Skills",
+        "subtitle":"These are the technologies I have worked with"
+    },
+
+    "projects":{
+        "title": "Projects",
+        "subtitle":"Some of my recent work",
+        "detail_app_emprendar":"Emprendar is a crowdfunding platform aimed at promoting the advancement of community projects or startups through monetary donations. My main tasks were focused on creating an online chat and working on the frontend of the app.",
+        "detail_app_firulais":"FirulaisApp is a Single Page Application (SPA) that consumes data from a PostgreSQL database through a NodeJS Back End developed using Express, which is also connected to an external API. I developed both the frontend and backend of the page."
+    },
+
+    "contact":{
+        "age":"I am 21 years old",
+        "address":" I live in Buenos Aires, Argentina.",
+        "question": "Do you want to know more about me? Would you be interested in working together?",
+        "response":"Do not hesitate and contact me!"
+    },
+
+    "footer":{
+        "text":"Thank you for visiting my page! :)"
+    }
+
+} 
