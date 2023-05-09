@@ -67,14 +67,13 @@ const Projects = () =>{
                             </div>
                         </a>
                   
-
+ 
                     <a href="https://firulais-1y8jbdr7w-santiagoalvarez2022.vercel.app" className={style.card}  target="_blank">
                         
                         <div className={style.logo2}>
                             <img src={firulaisapp} alt=""  />
                         </div>
                         <div className={style.card_presentation}>
-                            <img src="" alt="" />
                             <ReactPlayer playbackRate width="90%" height="20vh" style={divStyle}  className={style.video2} url={videoeFirulais} playing={true} controls loop/> 
                             <div className={style.data_project}>
                                 <p>{t("projects.detail_app_firulais")}</p>

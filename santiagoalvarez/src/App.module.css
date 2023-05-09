@@ -67,11 +67,6 @@ section[id]{
     display: grid;
     grid-template-columns: 1.6fr .4fr;
 }
-.pages{
-    border: 2px solid green;
-    height: 100vh;
-    overflow-y: scroll;
-}
-.pages::-webkit-scrollbar {display: none;}
+
 
   
