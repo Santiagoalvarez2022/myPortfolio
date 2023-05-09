@@ -74,14 +74,4 @@ section[id]{
 }
 .pages::-webkit-scrollbar {display: none;}
 
-@media only screen and (max-width: 766px) {
-    header{
-      background: #000;
-  }
-  .logo_hidden{
-      display: block;
-      color: #e6e8e9;
-  
-    }
-  }
   

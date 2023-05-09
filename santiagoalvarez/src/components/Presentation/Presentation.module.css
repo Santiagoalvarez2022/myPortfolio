@@ -29,7 +29,7 @@
 /*presentation*/
 .presentation{
     width: 100%;
-    height: 75%;
+    height: 60%;
     display: flex;
 }
 
@@ -269,24 +269,16 @@
 } 
 
 
-/* larger than 400px */
-@media (min-width: 400px) {
-   
-}
-  
-  /* larger than 550px */
-  @media (min-width: 550px) {
-    
-   
-}
-  
+
 
   
 
  /* Pantallas pequeñas */
 @media (max-width: 768px) {
     /* Estilos para pantallas pequeñas aquí */
-    
+    .app{
+        
+    }
     /*dentro de presentacion*/
     
     .section_a{
@@ -296,12 +288,10 @@
     .section_b{
         height: 80%;
         width: 100%;
-        border:2px solid red;
     }
     .section_c{
         height: 20%;
         width: 100%;
-        border:2px solid green;
         display: flex;
         justify-content: center;
         align-items:center;
@@ -312,7 +302,6 @@
     .presentation{
         display:flex;
         flex-direction: column; 
-        border:4px solid rgb(2, 21, 2);
         align-items:start;
     }   
 
@@ -332,8 +321,7 @@
     }
 
     .boxOne{
-      display: none;
-        
+        height: 10vh;
     }
     .boxThree{
         display: none;
@@ -341,15 +329,89 @@
     /*box two*/
     
     .boxTwo{
-        height: 100%;
+        height: 90vh; 
         width: 100%;
-        border: 2px solid red;
     }
 
+/*Icons*/
+.contact{
+    height: 25%;
+    display: flex;
+    padding: 0;
+
+}
+
+.icon_container{    
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+}
+
+.icon_container > div {
+    background: #251E60;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width:  65px;
+    height: 65px;
+    border-radius: 50%; 
+    padding: 10px;
+    filter: drop-shadow(3px 3px 7px black);
+    
+}
+
+.enlaces{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+}
+
+.icon_c{
+    height: 40px;
+    width:  40px;
+    border-radius: 50%; 
+    color: #c5d1d8;
+    cursor:pointer;
+}
+
+.icon_b{
+    height: 40px;
+    width:  40px;
+    border-radius: 50%; 
+    color: #c5d1d8;
+    cursor:pointer;
+}
+
+.icon_a{
+    height: 40px;
+    width:  40px;
+    border-radius: 50%; 
+    color: #c5d1d8;
+    cursor:pointer;
+    margin-bottom: 0;
+}
 
     
     
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   /* Pantallas medianas */
   @media (min-width: 769px) and (max-width: 992px) {
@@ -374,63 +436,120 @@
   /* Dispositivos móviles en modo retrato */
   @media (orientation: portrait) {
     /* Estilos para dispositivos móviles en modo retrato aquí */
+    .app{
+        overflow-x: hidden;
+        width: 100vw; 
+        border:2px solid red;
+    }
     .section_a{
         height: 0;
+        width: 0;
+        display: none;
     }
-
+    
     .section_b{
-        height: 80%;
         width: 100%;
-        border:2px solid red;
     }
     .section_c{
         height: 20%;
         width: 100%;
-        border:2px solid green;
         display: flex;
         justify-content: center;
         align-items:center;
         padding: 0;
+        
     }
     
     
     .presentation{
         display:flex;
         flex-direction: column; 
-        border:4px solid rgb(2, 21, 2);
         align-items:start;
+        height: 75vh;
     }   
 
     .info > h3{
         border: none;
+        padding: 0;
+        margin-bottom: 0;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        font-size: 100%;
     }
-
+    .info > p {
+        display: flex;
+        align-items:center;
+        text-align: center;
+        font-weight: bold;
+        height: 75%;
+        padding: 10px;
+        font-size: .8rem;
+        font-style: italic;
+        
+    }
+    .name_a > p{
+        font-size: 1rem;
+        padding:0;
+        margin: 0;
+        margin-bottom: 0;
+        padding-left: 2rem;
+        color:#c5d1d8;
+    
+    }
     .name_b{
         text-align: center;
         display: flex;
-        align-items:end;
+        align-items:center;
         justify-content: center;
-        height: 60%;
+        height: fit-content;
     }
     .name_b > h1{
-        font-size: 3rem;
+        font-size: 2.2rem;
     }
 
-    .boxOne{
-      display: none;
-        
-    }
+    .boxOne{ 
+        height: 10vh;
+    }  
     .boxThree{
         display: none;
     }
     /*box two*/
     
     .boxTwo{
-        height: 100%;
+        height: 90vh;
         width: 100%;
-        border: 2px solid red;
     }
 
+
+    .contact{
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items:start;
+        border:none;
+        padding: 0;
+    }
+     
+    .icon_container{    
+        display: flex;
+        height: fit-content;
+        width: fit-content;
+    }
+    
+    .icon_container > div {
+        background: #251E60;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        width:  50px;
+        height: 50px;
+        border-radius: 50%; 
+        padding: 10px;
+        filter: drop-shadow(3px 3px 7px black);
+        
+    }
+   
   }
   
   /* Dispositivos móviles con pantalla de ancho completo */

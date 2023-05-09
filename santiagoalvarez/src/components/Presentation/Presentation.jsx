@@ -29,6 +29,7 @@ export default function Presentation(){
                 </div>
       
                 <div className={style.section_b} >
+
                   <div className={style.name} >
       
                     <div className={style.name_a}>
@@ -43,6 +44,7 @@ export default function Presentation(){
                     <h3>Full Stack Web Developer</h3>
                     <p>{t("presentation.presentation")}</p>
                   </div>
+
                 </div>
     
                 <div className={style.section_c} >
@@ -51,7 +53,8 @@ export default function Presentation(){
                       {t("presentation.download")}
                       </div>
                     </a>
-                </div> 
+                </div>  
+                
             </div>
 
             <div className={style.contact}>
@@ -77,7 +80,7 @@ export default function Presentation(){
                   </a>
                 </div>
               </div>
-            </div>
+            </div> 
 
           </div>
       
@@ -99,6 +102,7 @@ export default function Presentation(){
                 </div>
             </div>
           </div>  
+
       </div>
     
         
