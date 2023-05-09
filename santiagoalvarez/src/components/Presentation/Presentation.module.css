@@ -439,7 +439,6 @@
     .app{
         overflow-x: hidden;
         width: 100vw; 
-        border:2px solid red;
     }
     .section_a{
         height: 0;
@@ -449,6 +448,57 @@
     
     .section_b{
         width: 100%;
+    }
+    .name{
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+    .info{
+        height: 50%;
+        color:#c5d1d8;
+    
+    }
+    
+    
+    .info > h3{
+        border: none;
+        padding: 0;
+        margin-bottom: 0;
+        display: flex;
+        justify-content: center;
+        font-size: 150%;
+        height: fit-content;
+    }
+    .info > p {
+        display: flex;
+        text-align: center;
+        font-weight: bold;
+        height: 75%;
+        padding: 0 10px  ;
+        font-size: .8rem;
+        font-style: italic;
+        
+    }
+    .name_a > p{
+        font-size: 1rem;
+        padding:0;
+        margin: 0;
+        margin-bottom: 0;
+        padding-left: 2rem;
+        color:#c5d1d8;
+        
+    }
+    .name_b{
+        text-align: center;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        height: fit-content;
+    }
+    .name_b > h1{
+        font-size: 2.4rem;
     }
     .section_c{
         height: 20%;
@@ -467,46 +517,6 @@
         align-items:start;
         height: 75vh;
     }   
-
-    .info > h3{
-        border: none;
-        padding: 0;
-        margin-bottom: 0;
-        display: flex;
-        align-items:center;
-        justify-content: center;
-        font-size: 100%;
-    }
-    .info > p {
-        display: flex;
-        align-items:center;
-        text-align: center;
-        font-weight: bold;
-        height: 75%;
-        padding: 10px;
-        font-size: .8rem;
-        font-style: italic;
-        
-    }
-    .name_a > p{
-        font-size: 1rem;
-        padding:0;
-        margin: 0;
-        margin-bottom: 0;
-        padding-left: 2rem;
-        color:#c5d1d8;
-    
-    }
-    .name_b{
-        text-align: center;
-        display: flex;
-        align-items:center;
-        justify-content: center;
-        height: fit-content;
-    }
-    .name_b > h1{
-        font-size: 2.2rem;
-    }
 
     .boxOne{ 
         height: 10vh;
