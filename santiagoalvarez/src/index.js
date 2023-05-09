@@ -13,6 +13,8 @@ import i18next from 'i18next';
 import app_es from "./translations/es/app.json"
 import app_en from "./translations/en/app.json"
 
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 i18next.init({
   interpolation : {escapeValue: false},
   lng:"en",

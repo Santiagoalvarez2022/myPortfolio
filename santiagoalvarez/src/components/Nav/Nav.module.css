@@ -50,3 +50,66 @@
     background: #e6e8e9;
     color:#030a13;
 }
+
+
+
+/* larger than 400px */
+@media (min-width: 400px) {
+   
+}
+  
+  /* larger than 550px */
+  @media (min-width: 550px) {
+    
+   
+}
+  
+
+  
+  /* Larger than phablet */
+  @media (min-width: 550px) {
+  }
+  
+  @keyframes typing {
+    from {
+        width: 0
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+        border-color: transparent
+    }
+  }
+  
+  @media only screen and (max-height: 700px) {
+   
+  }
+  
+  
+  
+  @media only screen and (max-width: 500px) {
+
+  }
+  
+ 
+  
+  @media only screen and (max-width: 766px) {
+   
+  }
+  
+  
+  @media only screen and (max-width: 766px) {
+   
+  }
+ 
+  
+  @media only screen and (max-width: 766px) {
+  
+    
+  }
+  
+ 
+ 
+  
+ 

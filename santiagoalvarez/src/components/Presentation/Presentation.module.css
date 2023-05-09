@@ -123,7 +123,6 @@
     font-size: 1.2rem;
     padding: 1rem 2.5rem;
     border: none;
-    outline: none;
     border-radius: 0.4rem;
     cursor: pointer;
     text-transform: uppercase;
@@ -268,3 +267,132 @@
     display: flex;
     justify-content: center;
 } 
+
+
+/* larger than 400px */
+@media (min-width: 400px) {
+   
+}
+  
+  /* larger than 550px */
+  @media (min-width: 550px) {
+    
+   
+}
+  
+
+  
+
+ /* Pantallas pequeñas */
+@media (max-width: 768px) {
+    /* Estilos para pantallas pequeñas aquí */
+    
+    /*dentro de presentacion*/
+    
+    .section_a{
+        height: 0;
+    }
+
+    .section_b{
+        height: 80%;
+        width: 100%;
+        border:2px solid red;
+    }
+    .section_c{
+        height: 20%;
+        width: 100%;
+        border:2px solid green;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        padding: 0;
+    }
+    
+    
+    .presentation{
+        display:flex;
+        flex-direction: column; 
+        border:4px solid rgb(2, 21, 2);
+        align-items:start;
+    }   
+
+    .info > h3{
+        border: none;
+    }
+
+    .name_b{
+        text-align: center;
+        display: flex;
+        align-items:end;
+        justify-content: center;
+        height: 60%;
+    }
+    .name_b > h1{
+        font-size: 3rem;
+    }
+
+    .boxOne{
+      display: none;
+        
+    }
+    .boxThree{
+        display: none;
+    }
+    /*box two*/
+    
+    .boxTwo{
+        height: 100%;
+        width: 100%;
+        border: 2px solid red;
+    }
+
+
+    
+    
+  }
+  
+  /* Pantallas medianas */
+  @media (min-width: 769px) and (max-width: 992px) {
+    /* Estilos para pantallas medianas aquí */
+  }
+  
+  /* Pantallas grandes */
+  @media (min-width: 993px) and (max-width: 1200px) {
+    /* Estilos para pantallas grandes aquí */
+  }
+  
+  /* Pantallas extra grandes */
+  @media (min-width: 1201px) {
+    /* Estilos para pantallas extra grandes aquí */
+  }
+  
+  /* Dispositivos móviles en modo paisaje */
+  @media (orientation: landscape) {
+    /* Estilos para dispositivos móviles en modo paisaje aquí */
+  }
+  
+  /* Dispositivos móviles en modo retrato */
+  @media (orientation: portrait) {
+    /* Estilos para dispositivos móviles en modo retrato aquí */
+  }
+  
+  /* Dispositivos móviles con pantalla de ancho completo */
+  @media only screen and (max-width: 480px) {
+    /* Estilos para dispositivos móviles con pantalla de ancho completo aquí */
+  }
+  
+  /* Dispositivos móviles con pantalla de ancho medio */
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    /* Estilos para dispositivos móviles con pantalla de ancho medio aquí */
+  }
+  
+  /* Dispositivos móviles con pantalla de ancho grande */
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Estilos para dispositivos móviles con pantalla de ancho grande aquí */
+  }
+  
+  /* Dispositivos móviles con pantalla de ancho extra grande */
+  @media only screen and (min-width: 1025px) {
+    /* Estilos para dispositivos móviles con pantalla de ancho extra grande aquí */
+  }
+  
