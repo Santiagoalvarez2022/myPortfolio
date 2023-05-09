@@ -255,66 +255,7 @@
         font-size: 1.05rem;
         text-align: center;
     }
-   /*
-.header{
-    height: 50%;
-    display: flex;
-}
 
-.container_photo{
-    width: 40%;
-    display: flex;
-    justify-content: center;
-    align-items:center;
-
-}
-.container_title{
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    justify-content: center;
-
-}
-
-
-.container_title > h3{
-    font-size: 400%;
-    margin-bottom: 0;
-    color: #ffffff;
-    font-family: "Oswall", sans-serif;
-    font-weight: bold;
-    filter: drop-shadow(3px 3px 7px black);
-}
-
-
-
-.body{
-    align-items:center;
-    height: 50%;
-    display: flex;
-    flex-direction: column;
-
-}
-.frase{
-    font-style: italic;
-    text-align: center;
-
-    width: 80%;
-    color:#c5d1d8;
-    font-weight: bold;
-    font-size: 1.4rem;
-}
-
-.body > p{
-    width: 80%;
-    color:#c5d1d8;
-    font-weight: bold;
-    font-size: 1.4rem;
-}
-
-
-*/
   }
   
   /* Dispositivos móviles con pantalla de ancho completo */
