@@ -276,9 +276,7 @@
  /* Pantallas pequeñas */
 @media (max-width: 768px) {
     /* Estilos para pantallas pequeñas aquí */
-    .app{
-        
-    }
+ 
     /*dentro de presentacion*/
     
     .section_a{
@@ -437,7 +435,6 @@
   @media (orientation: portrait) {
     /* Estilos para dispositivos móviles en modo retrato aquí */
     .app{
-        overflow-x: hidden;
         width: 100vw; 
     }
     .section_a{

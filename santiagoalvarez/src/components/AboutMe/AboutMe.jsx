@@ -10,6 +10,7 @@ export default function AboutMe() {
     <div className={style.all}>
         <div className={style.container}>
             <div className={style.divOne}></div>
+
             <div className={style.divTwo}>
                 <div className={style.card}>                  
                     <div className={style.header}>
@@ -29,6 +30,7 @@ export default function AboutMe() {
                 </div>
 
             </div>
+            
 
             <div className={style.divOne}>
             </div>
