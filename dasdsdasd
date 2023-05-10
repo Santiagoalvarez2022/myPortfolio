@@ -1,0 +1,226 @@
+[33mcommit 637a840b21d49e6506faf9ab6ec68c9db1d179b1[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Santiagoalvarez2022 <santiagoalvarez290401@gmail.com>
+Date:   Wed May 10 11:52:23 2023 -0300
+
+    Revert "finalizacion de diseño mobile"
+    
+    This reverts commit 6d00839efdb238b90b03f45181e7371488e5806a.
+
+[33mcommit 74d11e25cadac748a6b24dbe3b84cd2f56712307[m
+Author: Santiagoalvarez2022 <santiagoalvarez290401@gmail.com>
+Date:   Wed May 10 11:24:10 2023 -0300
+
+    responsive
+
+[33mcommit 71e96a4994ccc63913c8e76f7a25714fc8c2267b[m
+Author: Santiagoalvarez2022 <santiagoalvarez290401@gmail.com>
+Date:   Tue May 9 22:53:59 2023 -0300
+
+    termino de media querie menos de 768px
+
+[33mcommit c5e17e6a5ad9facb78dbb90ab773dc4e63524c18[m
+Author: Santiagoalvarez2022 <santiagoalvarez290401@gmail.com>
+Date:   Tue May 9 22:35:08 2023 -0300
+
+    termino de media querie menos de 768px
+
+[33mcommit 6d00839efdb238b90b03f45181e7371488e5806a[m
+Author: Santiagoalvarez2022 <santiagoalvarez290401@gmail.com>
+Date:   Tue May 9 19:48:09 2023 -0300
+
+    finalizacion de diseño mobile
+
+[33mcommit f4e302ebaa8919468c7f77fcea1cdacf81aa51a9[m
+Author: Santiagoalvarez2022 <santiagoalvarez290401@gmail.com>
+Date:   Tue May 9 19:00:05 2023 -0300
+
+    diseño mobile del contact me
+
+[33mcommit b36868e03c2a4e00af8498ac57262004f2eb2401[m
+Author: Santiagoalvarez2022 <santiagoalvarez290401@gmail.com>
+Date:   Tue May 9 18:02:50 2023 -0300
+
+    disigne responsive de projects
+
+[33mcommit 0ed92ac585e933042ca177e414fb4b10024edd7a[m
+Author: Santiagoalvarez2022 <santiagoalvarez290401@gmail.com>
+Date:   Tue May 9 15:10:06 2023 -0300
+
+    resposive de skills
+
+[33mcommit b96ebf6a247cc9009e40ff09d9096733ed60a7b1[m
+Author: Santiagoalvarez2022 <santiagoalvarez290401@gmail.com>
+Date:   Tue May 9 14:36:20 2023 -0300
+
+    responsive del aboutme para telefonos
+
+[33mcommit 714262a98c6aca0140320f0cc7b291a4514b2d48[m
+Author: Santiagoalvarez2022 <santiagoalvarez290401@gmail.com>
+Date:   Tue May 9 14:03:55 2023 -0300
+
+    centralizacion del contenido
+
+[33mcommit fd8cd72d0cdc3e85366253e8dbbdf3e2aa20a027[m
+Author: Santiagoalvarez2022 <santiagoalvarez290401@gmail.com>
+Date:   Tue May 9 13:46:10 2023 -0300
+
+    mejoras en el responsive
+
+[33mcommit 6d8b57a8ccbed5ace093626c28281690062e9b15[m
+Author: Santiagoalvarez2022 <santiagoalvarez290401@gmail.com>
+Date:   Tue May 9 12:11:40 2023 -0300
+
+    prueba de responsive de presentation
+
+[33mcommit 4352ca3fbdf9613328e09c42553bf4c3a8b42293[m
+Author: Santiagoalvarez2022 <santiagoalvarez290401@gmail.com>
+Date:   Tue May 9 12:02:27 2023 -0300
+
+    prueba de responsive de presentation
+
+[33mcommit f61771a0335b6e5ef7b11d19c506b6cbf4198669[m
+Author: Santiagoalvarez2022 <santiagoalvarez290401@gmail.com>
+Date:   Tue May 9 09:41:12 2023 -0300
+
+    cambios en el margen de la nav porque el deply no tomo el valor adecuado
+
+[33mcommit 53d7ca97709ddcc96c180ea80a60a3b572923511[m
+Author: Santiagoalvarez2022 <santiagoalvarez290401@gmail.com>
+Date:   Thu Apr 27 01:13:52 2023 -0300
+
+    cambio de puntero en las skills
+
+[33mcommit 37bb95282b5ceda5acee70d0148b6eaf6e967549[m
+Author: Santiagoalvarez2022 <santiagoalvarez290401@gmail.com>
+Date:   Thu Apr 27 00:52:28 2023 -0300
+
+    correcion en ruta skills en app.js
+
+[33mcommit 686c5476418dcc527a8db7a30a6b021842e8ae73[m
+Author: Santiagoalvarez2022 <santiagoalvarez290401@gmail.com>
+Date:   Thu Apr 27 00:48:41 2023 -0300
+
+    eliminacioin de gitignore y readme de más
+
+[33mcommit ff7bf6e926f1aa08e314b4c733d40a5d3aef76f4[m
+Merge: 11f52dc 7b340f4
+Author: Santiago Alvarez <santiagoalvarez290401@gmail.com>
+Date:   Thu Apr 20 01:28:38 2023 -0300
+
+    Merge pull request #5 from Santiagoalvarez2022/dev
+    
+    Dev
+
+[33mcommit 7b340f40fa03a1ac81dfac0386343c27c4c11fde[m[33m ([m[1;31morigin/dev[m[33m)[m
+Author: Santiagoalvarez2022 <santiagoalvarez290401@gmail.com>
+Date:   Thu Apr 20 01:21:52 2023 -0300
+
+    finalizacion de proyecto
+
+[33mcommit 399c7a7588ac727936d29d5e0d10caf67addbded[m
+Author: Santiagoalvarez2022 <santiagoalvarez290401@gmail.com>
+Date:   Wed Apr 19 03:03:36 2023 -0300
+
+    creacion de contact me, mejora en la barra de navegacion y correcion de componente about
+
+[33mcommit 57ef00a3eef8150ec9f47126cac1959e365bd346[m
+Author: Santiagoalvarez2022 <santiagoalvarez290401@gmail.com>
+Date:   Tue Apr 18 01:24:57 2023 -0300
+
+    finalizacion de cards de los procets, redericionamiento y logos
+
+[33mcommit c4cf2ed4900def3ad2b5ed48708c544f6f5c94c6[m
+Author: Santiagoalvarez2022 <santiagoalvarez290401@gmail.com>
+Date:   Mon Apr 17 18:06:57 2023 -0300
+
+    NSTALACION DE NUEVAS DEPENDENCIAS
+
+[33mcommit 11f52dcc5d0186577b05c13dcd733e9ce9405464[m
+Merge: ea226f3 f395264
+Author: Santiago Alvarez <santiagoalvarez290401@gmail.com>
+Date:   Mon Apr 17 17:38:30 2023 -0300
+
+    Merge pull request #4 from Santiagoalvarez2022/dev
+    
+    añadi paquete parecel
+
+[33mcommit f39526499e369c34514046be31c22a31171dde44[m
+Author: Santiagoalvarez2022 <santiagoalvarez290401@gmail.com>
+Date:   Mon Apr 17 17:36:07 2023 -0300
+
+    añadi paquete parecel
+
+[33mcommit ea226f3899e73217c273e36bf694dd3e1f053c48[m
+Merge: e63664a ada52b6
+Author: Santiago Alvarez <santiagoalvarez290401@gmail.com>
+Date:   Mon Apr 17 17:26:43 2023 -0300
+
+    Merge pull request #3 from Santiagoalvarez2022/dev
+    
+    creacion de skills y projects, agregando reproductor de video
+
+[33mcommit ada52b649293e752878ee6fe1c4c091f65cc9950[m
+Author: Santiagoalvarez2022 <santiagoalvarez290401@gmail.com>
+Date:   Mon Apr 17 17:22:33 2023 -0300
+
+    creacion de skills y projects, agregando reproductor de video
+
+[33mcommit e63664ab3f6bc06c57259f836ac6f62d91e48cad[m
+Merge: e8f5598 05b7c2d
+Author: Santiago Alvarez <santiagoalvarez290401@gmail.com>
+Date:   Sat Apr 15 19:03:25 2023 -0300
+
+    Merge pull request #2 from Santiagoalvarez2022/dev
+    
+    Dev
+
+[33mcommit 05b7c2d06409ae50490699c6e9470c46eb1a78f5[m
+Author: Santiagoalvarez2022 <santiagoalvarez290401@gmail.com>
+Date:   Sat Apr 15 19:02:14 2023 -0300
+
+    creacion de la nueva pagina de inicio
+
+[33mcommit 99402db42e2c88181cd0072c55f55a312021a7c4[m
+Author: Santiagoalvarez2022 <santiagoalvarez290401@gmail.com>
+Date:   Sat Apr 15 03:28:19 2023 -0300
+
+    cambios de estilos en toda la aplicacion
+
+[33mcommit e8f55989aa24f71293eed776aab4feaf1f7b98a6[m
+Merge: e53857b 72ad03d
+Author: Santiago Alvarez <santiagoalvarez290401@gmail.com>
+Date:   Tue Apr 4 17:24:52 2023 -0300
+
+    Merge pull request #1 from Santiagoalvarez2022/dev
+    
+    Dev
+
+[33mcommit 72ad03ddafbf084cf5f208227c3827759d51d1a2[m
+Author: Santiagoalvarez2022 <santiagoalvarez290401@gmail.com>
+Date:   Tue Apr 4 17:13:53 2023 -0300
+
+    create new feactures from aboutme
+
+[33mcommit e1c17675dd07a98eb149b1753356beb14ba81d06[m
+Author: Santiagoalvarez2022 <santiagoalvarez290401@gmail.com>
+Date:   Mon Apr 3 21:45:34 2023 -0300
+
+    creacion de animaciones y la pagina aboutme
+
+[33mcommit 67880e42c16b9667cc4befdd8b2195dafbf4bd66[m
+Author: Santiagoalvarez2022 <santiagoalvarez290401@gmail.com>
+Date:   Thu Mar 30 15:49:50 2023 -0300
+
+    creation of react application
+
+[33mcommit e53857b407f468638b3f5441507ca4fb889caef9[m
+Author: Santiago Alvarez <santiagoalvarez290401@gmail.com>
+Date:   Tue Mar 28 15:35:18 2023 -0300
+
+    Update README.md
+
+[33mcommit 709d771e25c85d811992cd511c7000acb5f60e08[m
+Author: Santiago Alvarez <santiagoalvarez290401@gmail.com>
+Date:   Tue Mar 28 15:34:57 2023 -0300
+
+    Initial commit

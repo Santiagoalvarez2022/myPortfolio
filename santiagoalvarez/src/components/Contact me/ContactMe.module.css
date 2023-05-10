@@ -177,21 +177,23 @@
 
 
 
-
-@media (orientation: portrait) {
+  @media (orientation: portrait) {
     /* Estilos para dispositivos móviles en modo retrato aquí */
+    .all{
+    }
     .boxOne{
         display: none;
     }
     .boxTwo{
-        height: 120vh;
+        height: 150vh;
+        align-items:start;
     }
     .boxTwo_space{
         width: 0;
     }
     .card{
         width: 100%;
-        height: 110vh;
+        height: 149vh;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows:repeat(2,1fr) ;
@@ -199,16 +201,16 @@
     }
 
     .all{
-        height: 104vh;
+        height: 150vh;
         justify-content: start;
-        
+
     }
     .contact{
         height: 44vh;
-
     }
     .data{
-        height: 60vh;
+        height: fit-content;
+
     }
     .container_icon_contact{
         height: 8vh;
@@ -219,185 +221,19 @@
     .container_contact{ 
         height: 24vh;
     }
-   
+    .information{
+        height: 35vh;
+    }
+    .container_photo{
+        width: 100%;
+        height: 55vh;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+
+         }
+    .photo{
+        width: 80%;
+        border-radius: 50%;
+    }
   }
-
-   /* Pantallas pequeñas */
-   @media (max-width: 768px) {
-    /* Estilos para pantallas pequeñas aquí */
- 
-
-
-.boxTwo{
-    width: 100%;
-    display: flex;
-    align-items:center;
-    height: 72vh;
-    background: #030a13;
-
-}
-
-.boxTwo_space{
-    width: 20%;
-}
-
-.card{
-    width: 60%;
-    height: 70vh;
-    background: #030a13;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-
-}
-.data{
-    display: flex;
-    flex-direction: column;
-    height: 70vh;
-
-}
-
-.container_photo{
-    width: 100%;
-    height: 33vh;
-    display: flex;
-    justify-content: center;
-    align-items:center;
-     }
-.photo{
-    width: 80%;
-    border-radius: 50%;
-}
-
-
-.information{
-    height: 30vh;
-    text-align: center;
-
-    
-}
-
-.information_text{
-    height: 15vh;
-}
-
-.information_text > h3{
-    color:#ffffffc6;
-    font-size: 1.2rem;
-}
-
-.information_text > h4{
-    color:#c7c2c2cc;
-    font-size: .7rem;
-}
-
-.information_medias{
-    height: 15vh;
-    color:#c7c2c2cc;
-}
-
-
-.icons{
-    height: 70%;
-    width: 100%;
-    display: flex;
-    align-items:center;
-    justify-content: center;
-}
-
-.icons_medias{
-    width: 1.5rem;
-    height: 30%;
-    color:#c7c2c2cc;
-}
-.icons_medias:hover{
-    color:  #ffc402;
-   
-    
-}
-
-
-.links_medias{
-    width: fit-content;
-    height: fit-content;
-}
-
-
-
-.contact{
-    width: 100%;
-    height: 70vh;
-    display: flex;
-    flex-direction: column;
-}
-
-.question{
-    font-size: .8rem;   
- 
-}
-
-
-
-.container_icon_contact > a {
-   
-    font-size:.7rem ;
-
-    
-}
-
-.container_icon_contact > p{
-    font-size:.7rem ;
-
-}
-
-.icons_contact{
-    height: 70%;
-}
-
-
-    
-  }
-
-  
-  /* Pantallas medianas */
-  @media (min-width: 769px) and (max-width: 992px) {
-    /* Estilos para pantallas medianas aquí */
-  }
-  
-  /* Pantallas grandes */
-  @media (min-width: 993px) and (max-width: 1200px) {
-    /* Estilos para pantallas grandes aquí */
-  }
-  
-  /* Pantallas extra grandes */
-  @media (min-width: 1201px) {
-    /* Estilos para pantallas extra grandes aquí */
-  }
-  
-  /* Dispositivos móviles en modo paisaje */
-  @media (orientation: landscape) {
-    /* Estilos para dispositivos móviles en modo paisaje aquí */
-  }
-  
-  /* Dispositivos móviles en modo retrato */
- 
-  
-  /* Dispositivos móviles con pantalla de ancho completo */
-  @media only screen and (max-width: 480px) {
-    /* Estilos para dispositivos móviles con pantalla de ancho completo aquí */
-  }
-  
-  /* Dispositivos móviles con pantalla de ancho medio */
-  @media only screen and (min-width: 481px) and (max-width: 768px) {
-    /* Estilos para dispositivos móviles con pantalla de ancho medio aquí */
-  }
-  
-  /* Dispositivos móviles con pantalla de ancho grande */
-  @media only screen and (min-width: 769px) and (max-width: 1024px) {
-    /* Estilos para dispositivos móviles con pantalla de ancho grande aquí */
-  }
-  
-  /* Dispositivos móviles con pantalla de ancho extra grande */
-  @media only screen and (min-width: 1025px) {
-    /* Estilos para dispositivos móviles con pantalla de ancho extra grande aquí */
-  }
-  

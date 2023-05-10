@@ -1,0 +1,24 @@
+/* Estilos para pantallas grandes (computadoras de escritorio o portátiles) */
+@media (min-width: 1200px) {
+  /* Agrega tus estilos aquí */
+}
+
+/* Estilos para pantallas medianas (escritorio) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Agrega tus estilos aquí */
+}
+
+/* Estilos para pantallas de tabletas */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Agrega tus estilos aquí */
+}
+
+/* Estilos para pantallas de teléfonos celulares en posición vertical */
+@media (min-width: 320px) and (max-width: 767px) {
+  /* Agrega tus estilos aquí */
+}
+
+/* Estilos para pantallas de teléfonos celulares en posición horizontal */
+@media (min-width: 480px) and (max-width: 767px) and (orientation: landscape) {
+  /* Agrega tus estilos aquí */
+}
