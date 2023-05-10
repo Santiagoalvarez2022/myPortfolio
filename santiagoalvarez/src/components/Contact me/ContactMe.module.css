@@ -20,22 +20,7 @@
     border-top-left-radius:  100%;
     border-top-right-radius: 0%;  
 }
-.boxOne > div{
-    width: 25%;
-}
 
-.boxOne > h2{
-    padding-bottom: 0; 
-    margin-bottom: 0;
-    display: flex;
-    align-items:center;
-    font-size: 300%;
-    margin-bottom: 0;
-    color: #c7c2c28b;
-    font-family: "Oswall", sans-serif;
-    font-weight: bold;
-    filter: drop-shadow(3px 3px 7px black);
-}
 
 .boxTwo{
     width: 100%;
@@ -63,6 +48,7 @@
     display: flex;
     flex-direction: column;
     height: 70vh;
+
 }
 
 .container_photo{
@@ -71,7 +57,6 @@
     display: flex;
     justify-content: center;
     align-items:center;
-
 }
 
 .photo{
@@ -189,36 +174,11 @@
 }
 
 
-   /* Pantallas pequeñas */
-   @media (max-width: 768px) {
-    /* Estilos para pantallas pequeñas aquí */
- 
-    
-  }
 
-  
-  /* Pantallas medianas */
-  @media (min-width: 769px) and (max-width: 992px) {
-    /* Estilos para pantallas medianas aquí */
-  }
-  
-  /* Pantallas grandes */
-  @media (min-width: 993px) and (max-width: 1200px) {
-    /* Estilos para pantallas grandes aquí */
-  }
-  
-  /* Pantallas extra grandes */
-  @media (min-width: 1201px) {
-    /* Estilos para pantallas extra grandes aquí */
-  }
-  
-  /* Dispositivos móviles en modo paisaje */
-  @media (orientation: landscape) {
-    /* Estilos para dispositivos móviles en modo paisaje aquí */
-  }
-  
-  /* Dispositivos móviles en modo retrato */
-  @media (orientation: portrait) {
+
+
+
+@media (orientation: portrait) {
     /* Estilos para dispositivos móviles en modo retrato aquí */
     .boxOne{
         display: none;
@@ -261,6 +221,189 @@
     }
    
   }
+
+   /* Pantallas pequeñas */
+   @media (max-width: 768px) {
+    /* Estilos para pantallas pequeñas aquí */
+ 
+
+
+.boxTwo{
+    width: 100%;
+    display: flex;
+    align-items:center;
+    height: 72vh;
+    background: #030a13;
+
+}
+
+.boxTwo_space{
+    width: 20%;
+}
+
+.card{
+    width: 60%;
+    height: 70vh;
+    background: #030a13;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+
+}
+
+.container_photo{
+    width: 100%;
+    height: 33vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+     }
+.photo{
+    width: 80%;
+    border-radius: 50%;
+}
+
+
+.information{
+    height: 30vh;
+    text-align: center;
+
+    
+}
+
+.information_text{
+    height: 15vh;
+}
+
+.information_text > h3{
+    color:#ffffffc6;
+    font-size: 1.2rem;
+}
+
+.information_text > h4{
+    color:#c7c2c2cc;
+    font-size: .7rem;
+}
+
+.information_medias{
+    height: 15vh;
+    color:#c7c2c2cc;
+}
+
+
+.icons{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.icons_medias{
+    width: 1.5rem;
+    height: 30%;
+    color:#c7c2c2cc;
+}
+.icons_medias:hover{
+    color:  #ffc402;
+   
+    
+}
+
+
+.links_medias{
+    width: fit-content;
+    height: fit-content;
+}
+
+
+
+.contact{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.question{
+    height: 20vh;
+    font-size: .8rem;   
+    text-align: center;
+    display: flex;
+    align-items:center;
+    font-style: italic;
+    color:#c7c2c28b;
+}
+
+.container_contact{
+    height: 50vh;
+}
+
+.container_icon_contact{
+    display: flex;
+    align-items:center;
+     height: 12vh;
+}
+
+.container_icon_contact > a {
+    height: 7vh;
+    display: flex;
+    align-items:center;
+    color:#c7c2c2;
+    gap: 1rem; 
+    font-size:.7rem ;
+
+    
+}
+
+.container_icon_contact > p{
+    height: 7vh;
+    display: flex;
+    align-items:center;
+    color:#c7c2c2;
+    gap: 1rem; 
+    font-size:.7rem ;
+
+}
+
+.icons_contact{
+    height: 70%;
+}
+
+.container_icon_contact > a:hover{
+    color: #ffc402;
+}
+    
+  }
+
+  
+  /* Pantallas medianas */
+  @media (min-width: 769px) and (max-width: 992px) {
+    /* Estilos para pantallas medianas aquí */
+  }
+  
+  /* Pantallas grandes */
+  @media (min-width: 993px) and (max-width: 1200px) {
+    /* Estilos para pantallas grandes aquí */
+  }
+  
+  /* Pantallas extra grandes */
+  @media (min-width: 1201px) {
+    /* Estilos para pantallas extra grandes aquí */
+  }
+  
+  /* Dispositivos móviles en modo paisaje */
+  @media (orientation: landscape) {
+    /* Estilos para dispositivos móviles en modo paisaje aquí */
+  }
+  
+  /* Dispositivos móviles en modo retrato */
+ 
   
   /* Dispositivos móviles con pantalla de ancho completo */
   @media only screen and (max-width: 480px) {

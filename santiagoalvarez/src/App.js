@@ -21,7 +21,8 @@ function App() {
 return(
   <div className={style.app}>
       <Favicon url={favicon}></Favicon>
-       <header className={ navState ? style : style.nav} >
+      
+      <header className={ navState ? style : style.nav} >
         <a  href="#presentation" className={ navState ?  style.logo_hidden :style.logo  }>Santiago Alvarez</a>
         <Nav />
       </header> 

@@ -356,60 +356,68 @@ a:link { text-decoration:none; } a:visited { text-decoration:none; }
         height: 50vh;
     }
     
-
-    /*
-.container_projects{
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items:end;
-    gap: 1rem ;  
-    height: 70vh;
-}
-
-
-.card {
-    width: 45%;
-    height: 69vh;
-    transition: .5s;
-    background: #030a13;
-    position: relative;
-    display: flex;
-    place-content: center;
-    place-items: center;
-    overflow: hidden;
-    border-radius: 20px;
-    cursor: pointer;
-    flex-direction: column;
-    outline: none;
-}
-a:link { text-decoration:none; } a:visited { text-decoration:none; }
-
-.logo{
-    z-index: 1;
-    background: #ffffffd8;
-    display: flex;
-    justify-content: center;
-    height: 10vh;
-
-}
-
-.logo2{
-    z-index: 1;
-    background: #23282F;
-    display: flex;
-    justify-content: center;
-    height: 10vh;
-}
  
-.logo > img{
-    width: 60%; 
+  }
+  /* Pantallas pequeñas */
+@media (max-width: 768px) {
+   /* Estilos para pantallas pequeñas aquí */
+
+   
+
+
+
+.title{
+    padding-bottom: 0; 
+    margin-bottom: 0;
+    display: flex;
+    align-items:center;
+    margin-bottom: 0;
+    color: #ffffff;
+    font-family: "Oswall", sans-serif;
+    font-weight: bold;
+    filter: drop-shadow(3px 3px 7px black);
+}
+
+.description{
+    color: #ffc402;
+    padding-inline-start: 2rem;
+    padding-bottom: 0; 
+    margin-bottom: 0;
+    font-size: 1rem;
+
+}
+
+.boxThree{
+    height: 7vh;
 }
 
 
 
+.boxTwo_space{
+    width: 20%;
+}
+
+.container_button{
+    width: 10%;
+    display: flex;
+    align-items:end;
+
+}
 
 
+.container_projects{
+    width: 70%;
+  
+
+}
+
+.data_project > p{
+    padding-top: 5px;
+    font-size: .7rem;
+}
+
+
+/*cardpresentation*/
 .card_presentation{
     z-index: 1;
     height: 59vh;
@@ -446,45 +454,24 @@ a:link { text-decoration:none; } a:visited { text-decoration:none; }
 
 .icon_a{
     color:#ffffffca; 
-    height: 40px;
+    height: 30px;
 }
-
-
 
 .icon_a:hover{
     color:  #ffc402;
    scale: 1.2;
 }
 
-
-
-
-.card::before {
-    content: '';
-    position: absolute;
-    width: 100px;
-    background: linear-gradient(320deg, rgb(3, 77, 146), rgb(0, 60, 255));
-   
-    height: 130%;
-    animation: rotBGimg 30s linear infinite;
-    transition: all 0.2s linear;
-}
-
-
-
-
-
-*/
-
- 
-  }
-  /* Pantallas pequeñas */
-  @media (max-width: 768px) {
-   /* Estilos para pantallas pequeñas aquí */
-
-   
  }
-
+ .uiverse {
+   
+    padding: 15px;
+    margin: 0;
+    border-radius: 10px;
+    width:  3rem;
+    height: 3rem;
+    
+  }
  
  /* Pantallas medianas */
  @media (min-width: 769px) and (max-width: 992px) {

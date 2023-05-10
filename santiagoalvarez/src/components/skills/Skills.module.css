@@ -13,9 +13,11 @@
     width: 100%;
     display: flex;
     align-items:end;
+
 }
 .boxThree{
     height: 7vh;
+
 }
 .boxTwo{
     width: 100%;
@@ -36,7 +38,6 @@
     margin-bottom: 0;
     display: flex;
     align-items:center;
-    font-size: 7vh;
     margin-bottom: 0;
     color: #ffffff;
     font-family: "Oswall", sans-serif;
@@ -120,6 +121,76 @@
    @media (max-width: 768px) {
     /* Estilos para pantallas pequeñas aquí */
  
+
+    .boxTwo_space{ 
+        width: 10%;
+    }
+    
+
+.description{
+    color: #ffc402;
+    padding-inline-start: 2rem;
+    padding-bottom: 0; 
+    margin-bottom: 0;
+    font-size: 1rem;
+}
+
+
+
+.container_logos{ 
+    width:80% ;
+
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+    gap: .5rem;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    height: 70vh;
+}
+ 
+
+
+.divs{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    gap: .5rem;  
+    height: 65vh;
+    width: 15%;
+}
+
+
+.divs>div{
+    text-align: center;
+    border-radius: 15px;
+    width: fit-content;
+    height: 18vh;
+    width: 100%;
+    padding: 1rem;
+    background: #030a13;
+    
+}
+
+
+
+.divs > div:hover{
+    scale: 1.2;
+    background: #23282F;
+
+}
+
+.logo {
+    width: 100%;
+    height: 9vh;
+}
+
+.name{
+    color:#ffffff98;
+    font-size: 50%;
+}
     
   }
 

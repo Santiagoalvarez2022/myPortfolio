@@ -16,17 +16,10 @@ header{
     position: fixed; 
     height: 10vh;
     display: flex;  
+    justify-content: end;
     align-items:center;
-    justify-content:end;
-    width: 100%;
-    padding: right 1rem;
     z-index: 3; 
-    padding-right: 2rem;
-    padding-left: 1rem;
-}
-
-.nav{
-    width: 100%;
+    width: 100vw;
 }
 
 .logo_hidden{
@@ -36,9 +29,11 @@ header{
 .logo{
     width: 30%;
     font-size: 1.2rem;
-    outline: none;
     text-decoration: none;
     color: #e6e8e9;
+    display: flex;
+    padding-inline-start: 5%;
+    justify-content:start ;
 }
 .logo:hover{
     color:  #ffc402;
@@ -72,6 +67,22 @@ section[id]{
 @media (max-width: 768px) {
     /* Estilos para pantallas pequeñas aquí */
  
+header{
+  position: fixed; 
+  height: 10vh;
+  display: flex;  
+  z-index: 3; 
+  padding-left: 0;
+}
+
+.logo_hidden{
+  width: 30%;
+  display: none;
+}
+.logo{
+  width: 30%;
+  font-size: .7rem;
+}
     
   }
 

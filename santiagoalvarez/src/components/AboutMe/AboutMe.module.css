@@ -175,6 +175,39 @@
 @media (max-width: 768px) {
     /* Estilos para pantallas pequeñas aquí */
  
+  
+    .container_title > h3{
+        font-size: 150%;
+        margin-bottom: 0;
+        color: #ffffff;
+        font-family: "Oswall", sans-serif;
+        font-weight: bold;
+        filter: drop-shadow(3px 3px 7px black);
+    }
+    
+
+    
+    .frase{
+        font-style: italic;
+        text-align: center;
+    
+        width: 80%;
+        color:#c5d1d8;
+        font-weight: bold;
+        font-size: .7rem;
+    }
+    
+    .body > p{
+        width: 80%;
+        color:#c5d1d8;
+        font-weight: bold;
+        font-size: .8rem;
+    }
+    
+    
+    
+    
+    
     
   }
 
@@ -182,6 +215,7 @@
   /* Pantallas medianas */
   @media (min-width: 769px) and (max-width: 992px) {
     /* Estilos para pantallas medianas aquí */
+    
   }
   
   /* Pantallas grandes */
@@ -255,6 +289,9 @@
         font-size: 1.05rem;
         text-align: center;
     }
+    .shape {
+        height: 80%;
+        width:  50%; }
 
   }
   
