@@ -108,8 +108,9 @@
 .section_c{
     height: 100%;
     width: 20%;
-    padding-top: 2rem;
-    padding-left: 2rem;
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
 }
 
 /* .section_c > div{
@@ -120,8 +121,8 @@
     background: #251E60;
     width: fit-content;
     height: 20%;
-    font-size: 1.2rem;
-    padding: 1rem 2.5rem;
+    font-size: 1em;
+    padding: 1.5rem 2.5rem;
     border: none;
     border-radius: 0.4rem;
     cursor: pointer;
@@ -266,15 +267,11 @@
     width: 60%;
     display: flex;
     justify-content: center;
+    
 } 
 
-
-
-
-  
-
  /* Pantallas pequeñas */
-@media (max-width: 768px) {
+ @media (max-width: 768px) {
     /* Estilos para pantallas pequeñas aquí */
  
     /*dentro de presentacion*/
@@ -355,7 +352,7 @@
         height: 60%;
     }
     .name_b > h1{
-        font-size: 2.5rem;
+        font-size: 2.2rem;
         padding:0;
         margin: 0;
         color:#e6eff5;
@@ -542,30 +539,196 @@
   }
 
 
-
-  
-  /* Pantallas medianas */
-  @media (min-width: 769px) and (max-width: 992px) {
+@media  (min-width: 515px) and (max-width: 992px) { 
+    
     .app{
-        background: red;
-       } 
+        height: 100vh;
+    } 
+    .name_b > h1{
+        font-size: 1.8rem;   
+    }
+
+      .info > h3{ 
+        border-top: none;
+        font-size: 1rem;
+    }
+    .info > p {
+      
+        font-size: .7rem;
+        
+    }
+    .icon_container > div {
+      
+        width:  30px;
+        height: 30px;
+       
+        
+    }
+    
+    .icon_c,.icon_b,.icon_a{
+        height: 20px;
+        width:  20px;
+
+    }
+
+    .name_a{
+        display: flex;
+        align-items:end;
+        padding:0;
+        margin: 0;
+        height: 40%;
+    }
+    .name_a > p{
+        font-size: .7rem;
+        padding:0;
+        margin: 0;
+        margin-bottom: 0;
+        padding-left: 0rem;
+        color:#c5d1d8;
+    
+    }
+    .name_b{
+        text-align: center;
+        display: flex;
+        align-items:end;
+        justify-content: center;
+        height: 40%;
+
+    }
+  
+}
+
+
+
+ /* Pantallas medianas */
+ @media (min-width: 769px) and (max-width: 990px) { 
+   
+    .btn {
+        height: 20%;
+        font-size: .6rem; 
+
+        padding: 1rem 1rem;
+    }
+    .name_b > h1{
+        font-size: 3rem;
+    
+    }
+
+      .info > h3{ 
+        border-top: 3px solid #000000;
+        font-size: 1.5rem;
+
+    }
+    
+    .info > p {
+      
+        font-size: 1.1rem;
+        
+    }
+    .icon_container > div {
+      
+        width:  40px;
+        height: 40px;
+       
+        
+    }
+        
+    .icon_c,.icon_b,.icon_a{
+        height: 25px;
+        width:  25px;
+    }
+
+    .name_a{
+        display: flex;
+        align-items:end;
+        padding:0;
+        margin: 0;
+        height: 50%;
+    }
+    .name_a > p{
+        font-size: 1rem;
+        padding:0;
+        margin: 0;
+        margin-bottom: 0;
+        color:#c5d1d8;
+
+    }
+    .name_b{
+        text-align: center;
+        display: flex;
+        align-items:end;
+        justify-content: center;
+        height: 50%;
+
+    }
+
+
+
+    
     /* Estilos para pantallas medianas aquí */
   }
   
   /* Pantallas grandes */
-  @media (min-width: 993px) and (max-width: 1200px) {
+  @media (min-width: 992px) and (max-width: 1200px) {
     /* Estilos para pantallas grandes aquí */
-    .app{
-        background: green;
+ 
+    .btn {
+        height: 20%;
+        font-size: .8rem; 
+        padding: .5rem 1rem;
+      }
+      .name_b > h1{
+        font-size: 3.5rem;
+    
     }
 
+      .info > h3{ 
+        border-top: 4px solid #000000;
+        font-size: 1.5rem;
+
+    }
+    
+    .info > p {
+      
+        font-size: 1.1rem;
+        
+    }
+    .name_a > p{
+        font-size: 1.1rem;
+        padding:0;
+        margin: 0;
+        margin-bottom: 0;
+        color:#c5d1d8;
+
+    }
+
+    .icon_container > div {
+      
+        width:  50px;
+        height: 50px;
+       
+        
+    }
+        
+    .icon_c,.icon_b,.icon_a{
+        height: 30px;
+        width:  30px;
+
+    }
   }
   
   /* Pantallas extra grandes */
   @media (min-width: 1201px) {
     /* Estilos para pantallas extra grandes aquí */
+    
   }
   
+
+  
+
+
+  
+ 
   /* Dispositivos móviles en modo paisaje */
   @media (orientation: landscape) {
     /* Estilos para dispositivos móviles en modo paisaje aquí */
@@ -611,9 +774,10 @@
     .info > p {
         display: flex;
         text-align: center;
+        justify-content: center;
+        padding: 15px;
         font-weight: bold;
         height: 75%;
-        padding: 0 10px  ;
         font-size: .8rem;
         font-style: italic;
         

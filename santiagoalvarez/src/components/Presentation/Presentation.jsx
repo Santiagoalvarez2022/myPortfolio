@@ -79,6 +79,7 @@ export default function Presentation(){
                     <FontAwesomeIcon className={style.icon_c}   icon={faLinkedin}/>
                   </a>
                 </div>
+               
               </div>
             </div> 
 

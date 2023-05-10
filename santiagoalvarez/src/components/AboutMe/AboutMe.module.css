@@ -170,46 +170,42 @@
 
 
   /*mobile disigne*/
-
-   /* Pantallas pequeñas */
-@media (max-width: 768px) {
-    /* Estilos para pantallas pequeñas aquí */
- 
-  
+  @media  (min-width: 515px) and (max-width: 992px) {
+      
+    .all{
+        height: 100vh;
+    } 
     .container_title > h3{
-        font-size: 150%;
-        margin-bottom: 0;
-        color: #ffffff;
-        font-family: "Oswall", sans-serif;
-        font-weight: bold;
-        filter: drop-shadow(3px 3px 7px black);
+        font-size: 250%;
     }
-    
-
-    
-    .frase{
+ 
+    .body > p{
+        width: 80%;
+        color:#c5d1d8;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    .divOne{
+        width: 20%;
+       }
+       .divTwo{
+        width: 60%;
+    }
+       .frase{
         font-style: italic;
         text-align: center;
     
         width: 80%;
         color:#c5d1d8;
         font-weight: bold;
-        font-size: .7rem;
-    }
-    
-    .body > p{
-        width: 80%;
-        color:#c5d1d8;
-        font-weight: bold;
         font-size: .8rem;
     }
     
-    
-    
-    
-    
-    
   }
+
+
+   /* Pantallas pequeñas */
+
 
   
   /* Pantallas medianas */
@@ -295,23 +291,32 @@
 
   }
   
-  /* Dispositivos móviles con pantalla de ancho completo */
-  @media only screen and (max-width: 480px) {
-    /* Estilos para dispositivos móviles con pantalla de ancho completo aquí */
-  }
-  
-  /* Dispositivos móviles con pantalla de ancho medio */
-  @media only screen and (min-width: 481px) and (max-width: 768px) {
-    /* Estilos para dispositivos móviles con pantalla de ancho medio aquí */
-  }
-  
-  /* Dispositivos móviles con pantalla de ancho grande */
-  @media only screen and (min-width: 769px) and (max-width: 1024px) {
-    /* Estilos para dispositivos móviles con pantalla de ancho grande aquí */
-  }
-  
-  /* Dispositivos móviles con pantalla de ancho extra grande */
-  @media only screen and (min-width: 1025px) {
-    /* Estilos para dispositivos móviles con pantalla de ancho extra grande aquí */
-  }
-  
+  @media (min-width: 360px) and (max-width: 516px) {
+    /* Estilos para pantallas medianas aquí */
+    .all{
+        background: #030a13;
+
+    }  
+    .container_title > h3{
+        font-size: 200%;
+    }
+    .frase{
+        font-size: 1rem;
+    }
+
+    .body{
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        flex-direction: column;
+        background: #030a13;
+    
+
+    }
+    .body > p{
+        color:#c5d1d8;
+        font-weight: bold;
+        font-size: .8rem; 
+        text-align: center;
+    }
+ }
