@@ -1,241 +1,180 @@
 
-.all{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    flex-direction: column;
-    height: 90vh;
-}   
+    .all{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        flex-direction: column;
+        height: 90vh;
+    }   
 
-.boxOne{
-    height: 13vh;
-    width: 100%;
-    display: flex;
-    align-items:end;
-
-}
-.boxThree{
-    height: 7vh;
-
-}
-.boxTwo{
-    width: 100%;
-    display: flex;
-    height: 70vh;
-}
-
-.space{
-    width: 25%;
-}
-
-.title_container{
-    width: 75%;
-}
-
-.title{
-    padding-bottom: 0; 
-    margin-bottom: 0;
-    display: flex;
-    align-items:center;
-    margin-bottom: 0;
-    color: #ffffff;
-    font-family: "Oswall", sans-serif;
-    font-weight: bold;
-    filter: drop-shadow(3px 3px 7px black);
-}
-
-.description{
-    color: #ffc402;
-    padding-inline-start: 2rem;
-    padding-bottom: 0; 
-    margin-bottom: 0;
-}
-
-.boxTwo_space{
-    width: 25%;
-}
-
-
-
-.container_logos{
-    width:50% ;
-
-    display: flex;
-    align-items:center;
-    justify-content: center;
-
-    gap: .5rem;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
-    height: 70vh;
- 
-}
- 
-
-
-.divs{
-    display: flex;
-    flex-direction: column;
-    gap: .5rem;  
-    height: 65vh;
-
-}
-
-
-.divs>div{
-    text-align: center;
-    border-radius: 30px;
-    width: fit-content;
-    height: 21vh;
-    width: 100%;
-    padding: 1rem;
-    background: #030a13;
-    
-}
-
-
-
-.divs > div:hover{
-    scale: 1.2;
-    background: #23282F;
-
-}
-
-.logo {
-    width: 100%;
-    height: 15vh;
-}
-
-.name{
-    height: 3vh;
-    color:#ffffff98;
-
-}
-
-
-
-/*mobile disigne*/
-
-
-  /* Pantallas medianas */
-  
-  
-  /* Pantallas grandes */
-  @media (min-width: 993px) and (max-width: 1200px) {
-    /* Estilos para pantallas grandes aquí */
-  }
-  
-  /* Pantallas extra grandes */
-  @media (min-width: 1201px) {
-    /* Estilos para pantallas extra grandes aquí */
-  }
-  
-  /* Dispositivos móviles en modo paisaje */
-  @media (orientation: landscape) {
-    /* Estilos para dispositivos móviles en modo paisaje aquí */
-  }
-  
-  
- @media (min-width: 360px) and (max-width: 819px) {
-   .all{
-    border:red solid 3px; 
-   }
     .boxOne{
-        height: 20vh;
+        height: 13vh;
+        width: 100%;
+        display: flex;
+        align-items:end;
+
+    }
+    .boxThree{
+        height: 7vh;
+
+    }
+    .boxTwo{
+        width: 100%;
+        display: flex;
+        height: 70vh;
     }
 
-   
-    .boxTwo_space{
-        width: 15%;
-        
-    }
-    .container_logos{
-        width: 70%;
-        padding: 0;
-        padding-inline: .5rem;
-    }
-    .divs{
-        height: 50vh;
+    .space{
         width: 25%;
     }
-    .divs>div{
-        height: 15vh;
 
+    .title_container{
+        width: 75%;
     }
-    .logo{
-        height: 8vh;
+
+    .title{
+        padding-bottom: 0; 
+        margin-bottom: 0;
+        display: flex;
+        align-items:center;
+        margin-bottom: 0;
+        color: #ffffff;
+        font-family: "Oswall", sans-serif;
+        font-weight: bold;
+        filter: drop-shadow(3px 3px 7px black);
     }
-    
- }
- @media (min-width: 819px) and (max-width: 1019px) {
-    .all{
-     border:rgb(255, 255, 0) solid 3px; 
+
+    .description{
+        color: #ffc402;
+        padding-inline-start: 2rem;
+        padding-bottom: 0; 
+        margin-bottom: 0;
     }
-     .boxOne{
-         height: 20vh;
-     }
- 
-    
-     .boxTwo_space{
-         width: 25%;
-         
-     }
-     .container_logos{
+
+    .boxTwo_space{
+        width: 25%;
+    }
+
+
+
+    .container_logos{
         width:50% ;
-    
+
         display: flex;
         align-items:center;
         justify-content: center;
-    
-        gap: .5rem;
-        padding-top: 5vh;
-        padding-bottom: 5vh;
-        height: 70vh;
-  }    
-     .container_logos{
-         width: 50%;
-         padding: 0;
-         border:solid 2px yellow;
-     }
-     .divs{
-         height: 50vh;
-         width: 25%;
-         border:solid 2px yellow;
 
-     }
-     .divs>div{
-         height: 15vh;
- 
-     }
-     .logo{
-         height: 8vh;
-     }
-     .title{
+        height: 70vh;
+    
+    }
+    
+    .boxprincipal{
+        width: 100%;
+        height: 80%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr); 
+        max-width: 30rem;
+
+    }
+    .boxprincipal>div{
+        background: linear-gradient(144deg,rgb(63, 63, 223) 0%, rgb(24, 24, 90) 100%); 
+        width:  100%;
+        height: 100%;
+        max-width: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        flex-direction: column;
+        color:#ffffff;
+        border-radius:20px;
+    }
+    .logo{
+        width: 50%;
+        height: 50%;
+        padding: 5px;
+
+    }
+    .name{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        height: 50%;
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+
+    @media (min-width: 1200px) {
+    /* Agrega tus estilos aquí */
+    }
+  
+  /* Estilos para pantallas medianas (escritorio) */
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .title{
         padding: 0;
         margin-bottom: 0;
-        font-size: 5vh;
+        font-size: 5.5vh;
         padding-inline-start: 1rem;
 
     }
     .description{
         font-size: 1rem;
     }
-     
+    .container_logos{
+        width:50% ;
+
+        display: flex;
+        align-items:center;
+        justify-content: center;
+
+        height: 70vh;
+        padding:0;
+
+    
+    }
+    .boxprincipal{
+        width: 100%;
+    }
+
   }
- /* Dispositivos móviles en modo retrato */
-  @media (orientation: portrait) {
-    /* Estilos para dispositivos móviles en modo retrato aquí */
+  
+  /* Estilos para pantallas de tabletas */
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* Agrega tus estilos aquí */
+
+    .title{
+        padding: 0;
+        margin-bottom: 0;
+        font-size: 5.5vh;
+        padding-inline-start: 1rem;
+
+    }
+    .description{
+        font-size: 1rem;
+    }
+
+  }
+
+
+
+  
+  /* Estilos para pantallas de teléfonos celulares en posición vertical */
+  @media (min-width: 320px) and (max-width: 767px) and (orientation: portrait) {
+
+    /* Agrega tus estilos aquí */
+     /* Dispositivos móviles en modo retrato */
 
     .boxOne{
         height: 20vh;
 
     }
-    .boxTwo{
-        align-items:center;
-    }
+   
     .boxThree{
         height: 10vh;
+  
     }
     .space{
         width: 0;
@@ -256,26 +195,30 @@
         font-size: 1rem;
     }
     .boxTwo_space{
-        width: 0;
-        
+            width: 0;
+          
+    }
+    .boxTwo{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
+    .container_logos{
+        width: 100%; 
+        padding: 0;
+
     }
     
-    .container_logos{
+    .boxprincipal{
         width: 100%;
-        padding: 0;
-        padding-inline: .5rem;
+        height: 80%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr); 
+
     }
+
+  }
+  
  
-    .divs{
-        height: 50vh;
-        width: 31%;
-    }
-    .divs>div{
-        height: 15vh;
 
-    }
-    .logo{
-        height: 10vh;
-    }
-
- }

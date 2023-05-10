@@ -34,8 +34,7 @@ const Skills = () =>{
 
                 </div>
                 <div className={style.container_logos}>
-
-                    <div className={style.divs}>
+                    <div className={style.boxprincipal}>
                         <div> 
                             <img src={logo_html} className={style.logo} />
                             <p className={style.name} >HTML</p>
@@ -50,8 +49,6 @@ const Skills = () =>{
                             <p className={style.name}>Javascript</p>
                         </div>
                     
-                    </div>
-                    <div className={style.divs}>
                         <div> 
                             <img src={logo_node}  className={style.logo} />
                             <p className={style.name}>Node.js</p>
@@ -67,8 +64,6 @@ const Skills = () =>{
                             <p className={style.name}>PostgreSQL</p>
 
                         </div>
-                    </div>
-                    <div className={style.divs}>
                         <div> 
                             <img src={logo_react} className={style.logo} />
                             <p className={style.name}> React</p>
@@ -82,7 +77,9 @@ const Skills = () =>{
                             <img src={logo_git} className={style.logo}  />
                             <p className={style.name}>Git</p>
                         </div>
-                    </div>               
+                        
+                    </div>
+                   
                 </div>
                 <div className={style.boxTwo_space}>
 
