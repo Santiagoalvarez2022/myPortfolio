@@ -331,42 +331,20 @@
 }
 
 .question{
-    height: 20vh;
     font-size: .8rem;   
-    text-align: center;
-    display: flex;
-    align-items:center;
-    font-style: italic;
-    color:#c7c2c28b;
+ 
 }
 
-.container_contact{
-    height: 50vh;
-}
 
-.container_icon_contact{
-    display: flex;
-    align-items:center;
-     height: 12vh;
-}
 
 .container_icon_contact > a {
-    height: 7vh;
-    display: flex;
-    align-items:center;
-    color:#c7c2c2;
-    gap: 1rem; 
+   
     font-size:.7rem ;
 
     
 }
 
 .container_icon_contact > p{
-    height: 7vh;
-    display: flex;
-    align-items:center;
-    color:#c7c2c2;
-    gap: 1rem; 
     font-size:.7rem ;
 
 }
@@ -375,9 +353,7 @@
     height: 70%;
 }
 
-.container_icon_contact > a:hover{
-    color: #ffc402;
-}
+
     
   }
 
