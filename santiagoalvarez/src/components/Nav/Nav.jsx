@@ -21,15 +21,7 @@ export default function () {
                     <p onClick={()=>handlerLanguage_es()} >ES</p>
                     <p onClick={()=>handlerLanguage_en()} >EN</p> 
                 </div>
-                <div className={style}>                
-                    <h3 className={style.links}>
-                        <a href="#presentation" > 
-                        {t("presentation.title")}
-                        </a> 
-                    </h3> 
-                </div>
-                <div className={style}>
-                    
+                <div>
                     <h3 className={style.links}>
                         <a href="#aboutMe" > 
                         {t("aboutMe.title")}
