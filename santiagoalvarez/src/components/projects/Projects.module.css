@@ -53,8 +53,8 @@
 .boxTwo{
     width: 100%;
     display: flex;
+    justify-content: center;
     height: 70vh;
-     
 }
 
 .boxTwo_space{
@@ -90,7 +90,7 @@
     overflow: hidden;
     border-radius: 20px;
     cursor: pointer;
-    flex-direction: column;
+    flex-direction: column; 
     outline: none;
 }
 a:link { text-decoration:none; } a:visited { text-decoration:none; }
@@ -116,7 +116,10 @@ a:link { text-decoration:none; } a:visited { text-decoration:none; }
     width: 60%; 
 }
 
-
+ 
+.logo2 > img{
+    width: 60%; 
+}
 
 
 
@@ -143,7 +146,9 @@ a:link { text-decoration:none; } a:visited { text-decoration:none; }
     width: 90%;
     font-weight: bold;
     display: flex;
-    align-items:center
+    align-items:center;
+    overflow-y: scroll;
+
 }
 
 .enlaces{
@@ -286,8 +291,170 @@ a:link { text-decoration:none; } a:visited { text-decoration:none; }
     color: #ffffff;
   }
   
-  /*mobile disigne*/
-  @media (orientation: portrait) {
+
+
+
+/* Estilos para pantallas grandes (computadoras de escritorio o portátiles) */
+@media (min-width: 1200px) {
+    /* Agrega tus estilos aquí */
+    .data_project{
+    align-items:start;
+    }
+    .data_project > p{
+        font-size: 150%;
+        padding-top: 10px ;
+        
+    }
+  }
+  
+  /* Estilos para pantallas medianas (escritorio) */
+  @media (min-width: 992px) and (max-width: 1199px) {
+    /* Agrega tus estilos aquí */
+    .title{
+        padding: 0;
+        margin-bottom: 0;
+        font-size: 5.5vh;
+        padding-inline-start: 1rem;
+
+    }
+    .description{
+        font-size: 1rem;
+    }
+    .boxTwo_space{
+        border:2px solid red;
+        width: 10%;
+    }
+    .container_projects{
+        width: 80%;
+        border:2px solid red;
+
+    }
+
+    .container_button{
+        border:2px solid red;
+        width: 10%;
+
+    }
+
+    .container_button{
+        display: flex;
+    }
+
+    .uiverse {
+        position: relative;
+        background: #030a13;
+        color: #000;
+        border-radius: 10px;
+        width:  3rem;
+        height: 3rem;
+      }
+
+    .icon_a{
+        height  : 20px;
+
+    }
+    .data_project {
+        overflow-y: scroll;
+    }
+    .data_project > p{
+        padding-top: 10px ;
+        font-size: 15px;
+    }
+    
+.card {
+    width: 45%;
+    height: 69vh;
+    transition: .5s;
+    background: #030a13;
+    position: relative;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+    cursor: pointer;
+    flex-direction: column; 
+    outline: none;
+    scale: .90;
+}
+  }
+  
+  /* Estilos para pantallas de tabletas */
+  @media (min-width: 768px) and (max-width: 992px) {
+    /* Agrega tus estilos aquí */
+    .title{
+        padding: 0;
+        margin-bottom: 0;
+        font-size: 5.5vh;
+        padding-inline-start: 1rem;
+
+    }
+    .description{
+        font-size: 1rem;
+    }
+    .boxTwo_space{
+        border:2px solid red;
+        width: 10%;
+    }
+    .container_projects{
+        width: 80%;
+        border:2px solid red;
+
+    }
+
+    .container_button{
+        border:2px solid red;
+        width: 10%;
+
+    }
+
+    .container_button{
+        display: flex;
+    }
+
+    .uiverse {
+        position: relative;
+        background: #030a13;
+        color: #000;
+        border-radius: 10px;
+        width:  3rem;
+        height: 3rem;
+      }
+
+    .icon_a{
+        height  : 20px;
+
+    }
+    .data_project {
+        overflow-y: scroll;
+    }
+    .data_project > p{
+        padding-top: 10px ;
+        font-size: 13px;
+    }
+    
+.card {
+    width: 45%;
+    height: 69vh;
+    transition: .5s;
+    background: #030a13;
+    position: relative;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+    cursor: pointer;
+    flex-direction: column; 
+    outline: none;
+    scale: .90;
+}
+  }
+  
+  /* Estilos para pantallas de teléfonos celulares en posición vertical */
+  @media (min-width: 320px) and (max-width: 767px) and (orientation: portrait) {
+    /* Agrega tus estilos aquí */
+
     /* Estilos para dispositivos móviles en modo retrato aquí */
 
     .all{
@@ -336,7 +503,7 @@ a:link { text-decoration:none; } a:visited { text-decoration:none; }
         display: flex;
         flex-direction: column;
         align-items:center; 
-      
+        justify-content: center;
     }
 
     .container_button{
@@ -356,161 +523,80 @@ a:link { text-decoration:none; } a:visited { text-decoration:none; }
     
  
   }
-  /* Pantallas pequeñas */
-@media (max-width: 768px) {
-   /* Estilos para pantallas pequeñas aquí */
 
-   
+  @media (min-width: 480px) and (max-width: 767px) {
+    /* Agrega tus estilos aquí */
 
+    .all{
+        height: 200vh;
+        justify-content: start;
+    }
 
+    .container_projects{
+        width: 100%;
+        height: 170vh;
+        display: flex;
+        flex-direction: column;
+        align-items:center; 
+        justify-content: center;
+    }
 
-.title{
-    padding-bottom: 0; 
-    margin-bottom: 0;
-    display: flex;
-    align-items:center;
-    margin-bottom: 0;
-    color: #ffffff;
-    font-family: "Oswall", sans-serif;
-    font-weight: bold;
-    filter: drop-shadow(3px 3px 7px black);
-}
+    .boxOne{
+        height: 10vh;
 
-.description{
-    color: #ffc402;
-    padding-inline-start: 2rem;
-    padding-bottom: 0; 
-    margin-bottom: 0;
-    font-size: 1rem;
+    }
+    .title_container{
+        width: 100%;
 
-}
+    }
+    .title{
+        padding: 0;
+        margin-bottom: 0;
+        font-size: 4.5vh;
+        padding-inline-start: 1rem;
 
-.boxThree{
-    height: 7vh;
-}
+    }
+    .description{
+        font-size: 1rem;
+    }
+    .space{
+        width: 0;
+    }
+    .boxTwo_space{
+        width: 0;
+        
+    }
+    .boxTwo{ 
+        flex-direction: column;
+        height: fit-content;
+    }
+    .boxThree{
+        height: 15vh; 
+        width: 100%;
+    } 
 
+    .container_projects{
+        width: 100%;
+        height: 170vh;
+        display: flex;
+        flex-direction: column;
+        align-items:center; 
+        justify-content: center;
+    }
 
-
-.boxTwo_space{
-    width: 20%;
-}
-
-.container_button{
-    width: 10%;
-    display: flex;
-    align-items:end;
-
-}
-
-
-.container_projects{
-    width: 70%;
-  
-
-}
-
-.data_project > p{
-    padding-top: 5px;
-    font-size: .7rem;
-}
-
-
-/*cardpresentation*/
-.card_presentation{
-    z-index: 1;
-    height: 59vh;
-    width: 100%; 
-    display: flex; 
-    align-items: center;
-    flex-direction: column  ;
-
-}
-.video{
-    z-index: 1; 
-    height: 20vh;  
-
-}
-
-
-.data_project{
-    color:#ffffff98;
-    height: 30vh; 
-    width: 90%;
-    font-weight: bold;
-    display: flex;
-    align-items:center
-}
-
-.enlaces{
-    height: 9vh;
-    width: 100%; 
-
-    display: flex;
-    align-items:center; 
-    padding-inline-start:1rem ;
-}
-
-.icon_a{
-    color:#ffffffca; 
-    height: 30px;
-}
-
-.icon_a:hover{
-    color:  #ffc402;
-   scale: 1.2;
-}
-
- }
- .uiverse {
-   
-    padding: 15px;
-    margin: 0;
-    border-radius: 10px;
-    width:  3rem;
-    height: 3rem;
+    .container_button{
+        height: 15vh ;
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        align-items:center;
+    }
+    .card{
+        width: 50%;
+        height: 80vh;
+    }
+    .data_project{
+        height: 50vh;
+    }
     
   }
- 
- /* Pantallas medianas */
- @media (min-width: 769px) and (max-width: 992px) {
-   /* Estilos para pantallas medianas aquí */
- }
- 
- /* Pantallas grandes */
- @media (min-width: 993px) and (max-width: 1200px) {
-   /* Estilos para pantallas grandes aquí */
- }
- 
- /* Pantallas extra grandes */
- @media (min-width: 1201px) {
-   /* Estilos para pantallas extra grandes aquí */
- }
- 
- /* Dispositivos móviles en modo paisaje */
- @media (orientation: landscape) {
-   /* Estilos para dispositivos móviles en modo paisaje aquí */
- }
- 
- /* Dispositivos móviles en modo retrato */
-
- 
- /* Dispositivos móviles con pantalla de ancho completo */
- @media only screen and (max-width: 480px) {
-   /* Estilos para dispositivos móviles con pantalla de ancho completo aquí */
- }
- 
- /* Dispositivos móviles con pantalla de ancho medio */
- @media only screen and (min-width: 481px) and (max-width: 768px) {
-   /* Estilos para dispositivos móviles con pantalla de ancho medio aquí */
- }
- 
- /* Dispositivos móviles con pantalla de ancho grande */
- @media only screen and (min-width: 769px) and (max-width: 1024px) {
-   /* Estilos para dispositivos móviles con pantalla de ancho grande aquí */
- }
- 
- /* Dispositivos móviles con pantalla de ancho extra grande */
- @media only screen and (min-width: 1025px) {
-   /* Estilos para dispositivos móviles con pantalla de ancho extra grande aquí */
- }
- 

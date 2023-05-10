@@ -18,7 +18,7 @@
     align-items:end;
     background: #030a13;
     border-top-left-radius:  100%;
-    border-top-right-radius: 0%;  
+    border-top-right-radius: 0%; 
 }
 
 
@@ -28,7 +28,6 @@
     align-items:center;
     height: 72vh;
     background: #030a13;
-
 }
 
 .boxTwo_space{
@@ -48,7 +47,6 @@
     display: flex;
     flex-direction: column;
     height: 70vh;
-
 }
 
 .container_photo{
@@ -68,8 +66,6 @@
 .information{
     height: 30vh;
     text-align: center;
-
-    
 }
 
 .information_text{
@@ -173,14 +169,132 @@
     color: #ffc402;
 }
 
-
-
-
-
-  @media (orientation: portrait) {
-    /* Estilos para dispositivos móviles en modo retrato aquí */
-    .all{
+/* Estilos para pantallas grandes (computadoras de escritorio o portátiles) */
+@media (min-width: 1200px) {
+    /* Agrega tus estilos aquí */
+  }
+  
+  /* Estilos para pantallas medianas (escritorio) */
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .boxTwo_space{
+        width: 15%;
     }
+    .card{
+        width: 70%;
+    }
+    /* Agrega tus estilos aquí */
+    .container_icon_contact > a {
+        height: 5vh;
+        gap: .5rem; 
+        
+    }
+    
+    .container_icon_contact > p{
+        height: 5vh;
+    }
+    
+    .information_medias{
+        
+        height: 10vh;
+    }
+    .information_text{
+        height: 25vh;
+
+    }
+
+    .information_text>h3{
+        font-size: 1.5rem;
+    }
+    .information_text>h4{
+        font-size: 1rem;
+    }  
+    .icons_medias{
+        width: 2rem;
+        height: 20%;
+        margin-inline: .5rem;
+        color:#c7c2c2cc;
+    }
+
+
+  }
+  
+  /* Estilos para pantallas de tabletas */
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* Agrega tus estilos aquí */
+  
+    .boxTwo_space{
+        width: 15%;
+    }
+    .card{
+        width: 70%;
+    }
+    .container_photo{
+        width: 100%;
+        height: 33vh;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
+    
+    .information{
+        height: 35vh;
+        text-align: center;
+    }
+    
+    .photo{
+        width: 20vw;
+        border-radius: 50%;
+    }
+    .question{
+        height: 20vh;
+        font-size: 1rem;   
+        text-align: center;
+        display: flex;
+        align-items:center;
+        font-style: italic;
+        color:#c7c2c28b;
+    }
+    .container_icon_contact > a {
+        height: 4.2vh;
+        gap: .5rem; 
+        
+    }
+    
+    .container_icon_contact > p{
+        height: 4.2vh;
+    }
+    .container_icon_contact{
+        padding-inline-start: 1rem;
+    }
+
+    .information_medias{
+        
+        height: 10vh;
+    }
+    .information_text{
+        height: 25vh;
+
+    }
+
+    .information_text>h3{
+        font-size: 1.5rem;
+    }
+    .information_text>h4{
+        font-size: 1rem;
+    }   
+    .icons_medias{
+        width: 70%;
+        height: 20%;
+        margin-inline: .5rem;
+        color:#c7c2c2cc;
+    }
+  
+  }
+  
+  /* Estilos para pantallas de teléfonos celulares en posición vertical */
+  @media (min-width: 320px) and (max-width: 767px) and (orientation: portrait) {
+    /* Agrega tus estilos aquí */
+    
     .boxOne{
         display: none;
     }
@@ -233,7 +347,16 @@
 
          }
     .photo{
-        width: 80%;
+        width: 60vw;
         border-radius: 50%;
     }
+   
   }
+  
+  /* Estilos para pantallas de teléfonos celulares en posición horizontal */
+  @media (min-width: 480px) and (max-width: 767px) and (orientation: landscape) {
+    /* Agrega tus estilos aquí */
+  }
+  
+
+

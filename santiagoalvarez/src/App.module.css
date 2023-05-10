@@ -64,4 +64,21 @@ section[id]{
 }
 
 
-  
+@media (orientation: portrait) {
+    /* Estilos para dispositivos móviles en modo retrato aquí */
+    header{
+        position: fixed; 
+        height: 10vh;
+        display: flex;  
+        align-items:center;
+        justify-content:end;
+        width: 100%;
+        padding: right 1rem;
+        z-index: 3; 
+        padding: 0;
+    }
+
+    .logo, .logo_hidden{
+    font-size: .5rem;
+    }
+  }
